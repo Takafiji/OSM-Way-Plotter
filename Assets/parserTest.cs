@@ -99,9 +99,10 @@ public class parserTest : MonoBehaviour {
 			}
 		}
         // save wayObject list to avoid reparsing and setting components to render lines
-        saveWayObjects(wayObjects);
+        //saveWayObjects(wayObjects);
 	}
 
+    //broken: Cannot store Transforms in an XML doc.
     public void saveWayObjects (List<Transform> wayObjects){
         string output = "C:\\wayObjects.xml";
         XmlSerializer ser = new XmlSerializer(typeof(List<Transform>));
