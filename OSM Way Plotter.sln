@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSM Way Plotter.Plugins", "OSM Way Plotter.Plugins.csproj", "{4E5D9C2C-174D-103A-A906-A5AC15D8957D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSM Way Plotter", "OSM Way Plotter.csproj", "{6D0E059E-04CC-7E85-A923-296F6E79A6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSM Way Plotter.Editor.Plugins", "OSM Way Plotter.Editor.Plugins.csproj", "{69CF7101-E534-A91D-947B-1D268D67F4FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E5D9C2C-174D-103A-A906-A5AC15D8957D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5D9C2C-174D-103A-A906-A5AC15D8957D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5D9C2C-174D-103A-A906-A5AC15D8957D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5D9C2C-174D-103A-A906-A5AC15D8957D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0E059E-04CC-7E85-A923-296F6E79A6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0E059E-04CC-7E85-A923-296F6E79A6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0E059E-04CC-7E85-A923-296F6E79A6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0E059E-04CC-7E85-A923-296F6E79A6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CF7101-E534-A91D-947B-1D268D67F4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CF7101-E534-A91D-947B-1D268D67F4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CF7101-E534-A91D-947B-1D268D67F4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CF7101-E534-A91D-947B-1D268D67F4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
