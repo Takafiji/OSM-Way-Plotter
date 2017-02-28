@@ -49,47 +49,38 @@ public class parserTest : MonoBehaviour {
 	public List<Node> nodes = new List<Node>();
 	public List<Way> ways = new List<Way>();
 
-    void Start () 
-	{
-		doc.Load(new XmlTextReader("Assets/uno-map.osm"));
+    void Start () {
+		doc.Load(new XmlTextReader("Assets/map-south_campus.osm"));
 		XmlNodeList elemList = doc.GetElementsByTagName("node");
-		foreach (XmlNode attr in elemList)
-		{
+		foreach (XmlNode attr in elemList) {
             Debug.Log("PARSING -- " + "ID: " + long.Parse(attr.Attributes["id"].InnerText) + ", LAT: " + float.Parse(attr.Attributes["lat"].InnerText) + ", LON: " + float.Parse(attr.Attributes["lon"].InnerText));
             nodes.Add(new Node(long.Parse(attr.Attributes["id"].InnerText), float.Parse(attr.Attributes["lat"].InnerText), float.Parse(attr.Attributes["lon"].InnerText)));
 		}
 		
 		XmlNodeList wayList = doc.GetElementsByTagName("way");
 		int ct = 0;
-		foreach (XmlNode node in wayList)
-		{
+		foreach (XmlNode node in wayList) {
             //load saved data here?
             XmlNodeList wayNodes = node.ChildNodes;
 			ways.Add(new Way(long.Parse(node.Attributes["id"].InnerText)));
-			foreach(XmlNode nd in wayNodes)
-			{
-				if(nd.Attributes[0].Name == "ref")
-				{
+			foreach(XmlNode nd in wayNodes)	{
+				if(nd.Attributes[0].Name == "ref") {
 					ways[ct].wnodes.Add(long.Parse(nd.Attributes["ref"].InnerText));
 					Debug.Log(ways[ct].wnodes.Count);
 				}
 			}
 			ct++;
 		}
-		for (int i = 0; i < ways.Count; i++)
-		{
+        saveWayObjects(ways);
+		for (int i = 0; i < ways.Count; i++) {
 			wayObjects.Add(new GameObject("wayObject"+ ways[i].id).transform);
 			wayObjects[i].gameObject.AddComponent<LineRenderer>();
             wayObjects[i].GetComponent<LineRenderer>().startWidth = 0.05f;
             wayObjects[i].GetComponent<LineRenderer>().endWidth = 0.05f;
             wayObjects[i].GetComponent<LineRenderer>().numPositions = ways[i].wnodes.Count;
-			for (int j = 0; j < ways[i].wnodes.Count; j++)
-			{
-				
-				foreach (Node nod in nodes)
-				{
-					if (nod.id == ways[i].wnodes[j])
-					{
+			for (int j = 0; j < ways[i].wnodes.Count; j++) {
+				foreach (Node nod in nodes)	{
+					if (nod.id == ways[i].wnodes[j]) {
 						Debug.Log("MATCH!");
 						x = nod.lat;
 						y = nod.lon;
@@ -103,12 +94,12 @@ public class parserTest : MonoBehaviour {
 	}
 
     //broken: Cannot store Transforms in an XML doc.
-    public void saveWayObjects (List<Transform> wayObjects){
-        string output = "C:\\wayObjects.xml";
-        XmlSerializer ser = new XmlSerializer(typeof(List<Transform>));
+    public void saveWayObjects (List<Way> way) {
+        string output = "C:\\Users\\Aster\\Documents\\OSM Way Plotter\\wayObjects.xml";
+        XmlSerializer ser = new XmlSerializer(typeof(List<Way>));
         TextWriter fs = new StreamWriter(output);
-        ser.Serialize(fs, wayObjects);
-        Debug.Log("Writing wayObjects to: " + output + " file.");
+        ser.Serialize(fs, way);
+        Debug.Log("Writing ways to: " + output + " file.");
         fs.Close();
     }
 }
