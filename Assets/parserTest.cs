@@ -9,11 +9,10 @@ using System.Text;
 //Longitude = Vertical
 
 
-
 public class parserTest : MonoBehaviour {
-	
-	XmlDocument doc = new XmlDocument();
-    private const string cacheDir = "Assets/parsedMaps/";
+
+    private const string assetsDir = "Assets/";
+    private const string cacheDir = assetsDir + "parsedMaps/";
     private const string map = "map-green_route.osm";
     List<Transform> wayObjects = new List<Transform>();
 	//public Node n;
@@ -55,15 +54,21 @@ public class parserTest : MonoBehaviour {
 	public List<Way> ways = new List<Way>();
 
     void Start () {
-        parseOSM_XML("Assets/" + map);
+        //parses exported OpenStreetMaps XML file and creates global list "ways" and "nodes"
+        parseOSM_XML(assetsDir + map);
+        //saves "ways" and "nodes" lists into custom XML file as a local cache
         saveWayList(ways, cacheDir + map + "-wayList.xml");
+        //creates "wayObjects" based on way[x].id, does vector transform to create visual
         createWayObjects();
+        Debug.Log("COMPLEATE: ALL wayObjects CREATED!!");
+        setWayColorMaterial();
         // save wayObject list to avoid reparsing and setting components to render lines
         //saveWayObjects(wayObjects);
 	}
 
     public void parseOSM_XML(string input)
     {
+        XmlDocument doc = new XmlDocument();
         doc.Load(new XmlTextReader(input));
         XmlNodeList elemList = doc.GetElementsByTagName("node");
         foreach (XmlNode attr in elemList)
@@ -143,8 +148,6 @@ public class parserTest : MonoBehaviour {
             }
         }
         Debug.Log("Writing ways to: " + output + " file.");
-        
-
         return lWay;
     }
 
@@ -157,6 +160,7 @@ public class parserTest : MonoBehaviour {
             wayObjects[i].GetComponent<LineRenderer>().startWidth = 0.05f;
             wayObjects[i].GetComponent<LineRenderer>().endWidth = 0.05f;
             wayObjects[i].GetComponent<LineRenderer>().numPositions = ways[i].wnodes.Count;
+            //
             for (int j = 0; j < ways[i].wnodes.Count; j++)
             {
                 foreach (Node nod in nodes)
@@ -171,5 +175,44 @@ public class parserTest : MonoBehaviour {
                 wayObjects[i].GetComponent<LineRenderer>().SetPosition(j, new Vector3((x - boundsX) * 100, 0, (y - boundsY) * 100));
             }
         }
+    }
+
+    public void setWayColorMaterial()
+    {
+        Material greenPathMat = Resources.Load("OSM_Green-Path", typeof(Material)) as Material;
+
+        for (int i = 0; i < ways.Count; i++)
+        {
+            Debug.Log("Count --" + i + ": wayObject" + ways[i].id);
+            switch (ways[i].id) {
+                case 352607471:
+                    Debug.Log("APPLYING GREEN MATERIAL!");
+                    wayObjects[i].GetComponent<LineRenderer>().material = greenPathMat;
+                    break;
+                case 175843858:
+                    Debug.Log("APPLYING GREEN MATERIAL!");
+                    wayObjects[i].GetComponent<LineRenderer>().material = greenPathMat;
+                    break;
+            }
+        }
+        /*for (int i = 0; i < ways.Count; i++)
+        {
+            if (ways[i].id == 14085045)
+            {
+                Debug.Log("APPLYING GREEN MATERIAL!");
+                wayObjects[i].GetComponent<LineRenderer>().material = greenPath;
+            }
+            
+            if (ways[i].id == 14090234 || ways[i].id == 14085045 || ways[i].id == 50624668)
+            {
+                wayObjects[i].GetComponent<LineRenderer>().startColor = Color.green;
+                wayObjects[i].GetComponent<LineRenderer>().endColor = Color.green;
+            }
+            else
+            {
+                wayObjects[i].GetComponent<LineRenderer>().startColor = Color.black;
+                wayObjects[i].GetComponent<LineRenderer>().startColor = Color.black;
+            }
+        }*/
     }
 }
