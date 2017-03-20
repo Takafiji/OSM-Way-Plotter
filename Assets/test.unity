@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311926, g: 0.38073996, b: 0.35872692, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -122,6 +122,7 @@ MonoBehaviour:
   y: 0
   boundsX: 41
   boundsY: -96
+  greenNodes: 
 --- !u!4 &84424416
 Transform:
   m_ObjectHideFlags: 0
@@ -135,52 +136,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2112925097
+--- !u!1 &1431404250
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 2112925102}
-  - component: {fileID: 2112925101}
-  - component: {fileID: 2112925100}
-  - component: {fileID: 2112925099}
-  - component: {fileID: 2112925098}
+  - component: {fileID: 1431404255}
+  - component: {fileID: 1431404254}
+  - component: {fileID: 1431404253}
+  - component: {fileID: 1431404252}
+  - component: {fileID: 1431404251}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: Camera - Scott Campus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &2112925098
+--- !u!81 &1431404251
 AudioListener:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2112925097}
+  m_GameObject: {fileID: 1431404250}
   m_Enabled: 1
---- !u!92 &2112925099
+--- !u!92 &1431404252
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2112925097}
+  m_GameObject: {fileID: 1431404250}
   m_Enabled: 1
---- !u!124 &2112925100
+--- !u!124 &1431404253
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2112925097}
+  m_GameObject: {fileID: 1431404250}
   m_Enabled: 1
---- !u!20 &2112925101
+--- !u!20 &1431404254
 Camera:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2112925097}
+  m_GameObject: {fileID: 1431404250}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
@@ -192,8 +193,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 5
-  field of view: 68.15549
+  far clip plane: 2
+  field of view: 15
   orthographic: 0
   orthographic size: 5
   m_Depth: 100
@@ -209,16 +210,16 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
---- !u!4 &2112925102
+--- !u!4 &1431404255
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2112925097}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 24.39, y: 4, z: -0.91}
+  m_GameObject: {fileID: 1431404250}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+  m_LocalPosition: {x: 24.22, y: -1.49, z: -1.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 270}

@@ -13,14 +13,17 @@ public class parserTest : MonoBehaviour {
 
     private const string assetsDir = "Assets/";
     private const string cacheDir = assetsDir + "parsedMaps/";
-    private const string map = "map-green_route.osm";
+    private const string map = "map-scott_court.osm";
+    private const string greenMat = "OSM_Green-Path";
     List<Transform> wayObjects = new List<Transform>();
 	//public Node n;
 	public float x;
 	public float y;
-	public float boundsX= 41;
-	public float boundsY= -96;
-	
+	public float boundsX = 41;
+	public float boundsY = -96;
+    public long[] greenNodes = new long[100];
+    
+
 	public struct Node
 	{
 	
@@ -53,15 +56,18 @@ public class parserTest : MonoBehaviour {
 	public List<Node> nodes = new List<Node>();
 	public List<Way> ways = new List<Way>();
 
-    void Start () {
+    void Start ()
+    {
         //parses exported OpenStreetMaps XML file and creates global list "ways" and "nodes"
         parseOSM_XML(assetsDir + map);
         //saves "ways" and "nodes" lists into custom XML file as a local cache
         saveWayList(ways, cacheDir + map + "-wayList.xml");
         //creates "wayObjects" based on way[x].id, does vector transform to create visual
-        createWayObjects();
+        //createWayObjects();
         Debug.Log("COMPLEATE: ALL wayObjects CREATED!!");
-        setWayColorMaterial();
+        //setWayColorMaterial(greenMat, 0);
+
+        //createBuilding();
         // save wayObject list to avoid reparsing and setting components to render lines
         //saveWayObjects(wayObjects);
 	}
@@ -81,7 +87,6 @@ public class parserTest : MonoBehaviour {
         int ct = 0;
         foreach (XmlNode node in wayList)
         {
-            //load saved data here?
             XmlNodeList wayNodes = node.ChildNodes;
             ways.Add(new Way(long.Parse(node.Attributes["id"].InnerText)));
             foreach (XmlNode nd in wayNodes)
@@ -153,14 +158,17 @@ public class parserTest : MonoBehaviour {
 
     public void createWayObjects()
     {
+        /*greenNodes[0] = 134196309;
+        greenNodes[1] = 1129105971;
+        greenNodes[2] = 1669126349;*/
         for (int i = 0; i < ways.Count; i++)
         {
             wayObjects.Add(new GameObject("wayObject" + ways[i].id).transform);
             wayObjects[i].gameObject.AddComponent<LineRenderer>();
-            wayObjects[i].GetComponent<LineRenderer>().startWidth = 0.05f;
-            wayObjects[i].GetComponent<LineRenderer>().endWidth = 0.05f;
+            wayObjects[i].GetComponent<LineRenderer>().startWidth = 0.005f;
+            wayObjects[i].GetComponent<LineRenderer>().endWidth = 0.005f;
             wayObjects[i].GetComponent<LineRenderer>().numPositions = ways[i].wnodes.Count;
-            //
+            //loop through all nodes in each way
             for (int j = 0; j < ways[i].wnodes.Count; j++)
             {
                 foreach (Node nod in nodes)
@@ -170,6 +178,19 @@ public class parserTest : MonoBehaviour {
                         Debug.Log("MATCH!");
                         x = nod.lat;
                         y = nod.lon;
+
+                        switch (ways[i].wnodes[j])
+                        {
+                            case 1669126349:
+                                setWayColorMaterial(i, greenMat);
+                                break;
+                            case 134196309:
+                                setWayColorMaterial(i, greenMat);
+                                break;
+                            case 1129105971:
+                                setWayColorMaterial(i, greenMat);
+                                break;
+                        }
                     }
                 }
                 wayObjects[i].GetComponent<LineRenderer>().SetPosition(j, new Vector3((x - boundsX) * 100, 0, (y - boundsY) * 100));
@@ -177,11 +198,12 @@ public class parserTest : MonoBehaviour {
         }
     }
 
-    public void setWayColorMaterial()
+    public void setWayColorMaterial(int i, string colorMat)
     {
-        Material greenPathMat = Resources.Load("OSM_Green-Path", typeof(Material)) as Material;
+        Material greenPathMat = Resources.Load(colorMat, typeof(Material)) as Material;
 
-        for (int i = 0; i < ways.Count; i++)
+        wayObjects[i].GetComponent<LineRenderer>().material = greenPathMat;
+        /*for (int i = 0; i < ways.Count; i++)
         {
             Debug.Log("Count --" + i + ": wayObject" + ways[i].id);
             switch (ways[i].id) {
@@ -190,12 +212,16 @@ public class parserTest : MonoBehaviour {
                     wayObjects[i].GetComponent<LineRenderer>().material = greenPathMat;
                     break;
                 case 175843858:
-                    Debug.Log("APPLYING GREEN MATERIAL!");
-                    wayObjects[i].GetComponent<LineRenderer>().material = greenPathMat;
+                    
+                    if (nodeIntersection(i, 134196309))
+                    {
+                        Debug.Log("APPLYING GREEN MATERIAL!");
+                        wayObjects[i].GetComponent<LineRenderer>().material = greenPathMat;
+                    }
                     break;
             }
         }
-        /*for (int i = 0; i < ways.Count; i++)
+        for (int i = 0; i < ways.Count; i++)
         {
             if (ways[i].id == 14085045)
             {
@@ -214,5 +240,53 @@ public class parserTest : MonoBehaviour {
                 wayObjects[i].GetComponent<LineRenderer>().startColor = Color.black;
             }
         }*/
+    }
+
+    public void createBuilding()
+    {
+        Material greyMat = Resources.Load("OSM_Grey", typeof(Material)) as Material;
+
+        for (int i = 0; i < ways.Count; i++)
+        {
+            for (int j = 0; j < ways[i].wnodes.Count; j++)
+            {
+                if (ways[i].id == 415686865)
+                {
+                    foreach (Node nd in nodes)
+                    {
+                        //scott court building
+                        //  bottom right           mid right              mid right corner       top right              top left               bottom left            close point
+                        if (nd.id == 4166768860 || nd.id == 4166768881 || nd.id == 4166768880 || nd.id == 4166768884 || nd.id == 4166768885 || nd.id == 4166768861 || nd.id == 4166768860)
+                        {
+                            Debug.Log("Count --" + i + ": wayObject" + ways[i].id);
+                            wayObjects[i].GetComponent<LineRenderer>().material = greyMat;
+                            /*switch (nd.id) {
+                                case 4166768860:
+
+                                    break;
+                            }*/
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    public bool nodeIntersection(int i, long node)
+    {
+        for (int j = 0; j < ways[i].wnodes.Count; j++)
+        {
+            foreach (Node nod in nodes)
+            {
+                if (nod.id == node)
+                {
+                    /*Debug.Log("MATCH!");
+                    x = nod.lat;
+                    y = nod.lon;*/
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

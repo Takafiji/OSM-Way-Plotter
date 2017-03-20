@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.5.8 (16061 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="41.2413600" minlon="-96.0148800" maxlat="41.2449500" maxlon="-96.0092400"/>
+ <node id="133932210" visible="true" version="2" changeset="2984621" timestamp="2009-10-29T20:57:27Z" user="woodpeck_fixbot" uid="147510" lat="41.2446570" lon="-96.0095850"/>
+ <node id="133945979" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:34Z" user="Your Village Maps" uid="227972" lat="41.2451360" lon="-96.0095901"/>
+ <node id="134001220" visible="true" version="5" changeset="38970460" timestamp="2016-04-29T01:19:09Z" user="Your Village Maps" uid="227972" lat="41.2378426" lon="-96.0119731">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="134006955" visible="true" version="2" changeset="2984621" timestamp="2009-10-29T21:08:04Z" user="woodpeck_fixbot" uid="147510" lat="41.2424100" lon="-96.0047490"/>
+ <node id="134006961" visible="true" version="2" changeset="3097046" timestamp="2009-11-12T10:55:17Z" user="woodpeck_fixbot" uid="147510" lat="41.2423940" lon="-96.0071460"/>
+ <node id="134006965" visible="true" version="2" changeset="2984621" timestamp="2009-10-29T21:08:04Z" user="woodpeck_fixbot" uid="147510" lat="41.2423980" lon="-96.0095770"/>
+ <node id="134010287" visible="true" version="2" changeset="3309513" timestamp="2009-12-06T20:19:08Z" user="woodpeck_fixbot" uid="147510" lat="41.2441950" lon="-96.0071500"/>
+ <node id="134010288" visible="true" version="2" changeset="2984621" timestamp="2009-10-29T21:08:24Z" user="woodpeck_fixbot" uid="147510" lat="41.2432950" lon="-96.0071470"/>
+ <node id="134010289" visible="true" version="2" changeset="3097046" timestamp="2009-11-12T10:55:33Z" user="woodpeck_fixbot" uid="147510" lat="41.2414950" lon="-96.0071450"/>
+ <node id="134068880" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:34Z" user="Your Village Maps" uid="227972" lat="41.2448789" lon="-96.0095857"/>
+ <node id="134068883" visible="true" version="2" changeset="3097046" timestamp="2009-11-12T10:59:16Z" user="woodpeck_fixbot" uid="147510" lat="41.2441980" lon="-96.0095810"/>
+ <node id="134068885" visible="true" version="2" changeset="2984621" timestamp="2009-10-29T21:15:08Z" user="woodpeck_fixbot" uid="147510" lat="41.2432990" lon="-96.0095780"/>
+ <node id="134068888" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:34Z" user="Your Village Maps" uid="227972" lat="41.2414979" lon="-96.0095826"/>
+ <node id="134068891" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:34Z" user="Your Village Maps" uid="227972" lat="41.2398569" lon="-96.0095835"/>
+ <node id="134068893" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:34Z" user="Your Village Maps" uid="227972" lat="41.2380176" lon="-96.0095825"/>
+ <node id="134068895" visible="true" version="4" changeset="12709772" timestamp="2012-08-13T09:32:19Z" user="Your Village Maps" uid="227972" lat="41.2378846" lon="-96.0095876">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="134069022" visible="true" version="2" changeset="2984621" timestamp="2009-10-29T21:15:09Z" user="woodpeck_fixbot" uid="147510" lat="41.2441950" lon="-96.0083500"/>
+ <node id="134085314" visible="true" version="4" changeset="11771132" timestamp="2012-06-01T19:45:28Z" user="Your Village Maps" uid="227972" lat="41.2437638" lon="-96.0188424">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="134085455" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:32:19Z" user="Your Village Maps" uid="227972" lat="41.2414920" lon="-96.0059707"/>
+ <node id="134127796" visible="true" version="2" changeset="3097046" timestamp="2009-11-12T11:03:26Z" user="woodpeck_fixbot" uid="147510" lat="41.2414980" lon="-96.0083470"/>
+ <node id="134162408" visible="true" version="2" changeset="2984621" timestamp="2009-10-29T21:28:05Z" user="woodpeck_fixbot" uid="147510" lat="41.2432970" lon="-96.0047500"/>
+ <node id="134168676" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:32Z" user="Your Village Maps" uid="227972" lat="41.2434296" lon="-96.0111752"/>
+ <node id="134168679" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:33Z" user="Your Village Maps" uid="227972" lat="41.2436406" lon="-96.0114898"/>
+ <node id="134168681" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:33Z" user="Your Village Maps" uid="227972" lat="41.2436897" lon="-96.0116212"/>
+ <node id="134168683" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:33Z" user="Your Village Maps" uid="227972" lat="41.2437235" lon="-96.0117553"/>
+ <node id="134168685" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:33Z" user="Your Village Maps" uid="227972" lat="41.2437439" lon="-96.0119033"/>
+ <node id="134168687" visible="true" version="4" changeset="46990015" timestamp="2017-03-19T18:28:14Z" user="Takafiji" uid="5518161" lat="41.2437520" lon="-96.0120765">
+  <tag k="crossing" v="pedestrian"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="kerb" v="sloped"/>
+  <tag k="name" v="Parking Lot to Scott Conference Center"/>
+  <tag k="tactile_paving" v="no"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="134168688" visible="true" version="4" changeset="12709772" timestamp="2012-08-13T09:08:33Z" user="Your Village Maps" uid="227972" lat="41.2437556" lon="-96.0146359">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="134168694" visible="true" version="4" changeset="11771132" timestamp="2012-06-01T19:45:27Z" user="Your Village Maps" uid="227972" lat="41.2437987" lon="-96.0194837"/>
+ <node id="134168942" visible="true" version="2" changeset="3097046" timestamp="2009-11-12T11:06:37Z" user="woodpeck_fixbot" uid="147510" lat="41.2442000" lon="-96.0047540"/>
+ <node id="134168943" visible="true" version="2" changeset="2984621" timestamp="2009-10-29T21:29:11Z" user="woodpeck_fixbot" uid="147510" lat="41.2441920" lon="-96.0048530"/>
+ <node id="134196309" visible="true" version="4" changeset="12709772" timestamp="2012-08-13T09:08:33Z" user="Your Village Maps" uid="227972" lat="41.2415069" lon="-96.0109633"/>
+ <node id="134196313" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:33Z" user="Your Village Maps" uid="227972" lat="41.2429153" lon="-96.0109576"/>
+ <node id="134196318" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:33Z" user="Your Village Maps" uid="227972" lat="41.2433344" lon="-96.0110930"/>
+ <node id="134201186" visible="true" version="4" changeset="13460858" timestamp="2012-10-11T22:44:46Z" user="Your Village Maps" uid="227972" lat="41.2473531" lon="-96.0151879"/>
+ <node id="134201189" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2468702" lon="-96.0151878"/>
+ <node id="134201192" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2465737" lon="-96.0151852"/>
+ <node id="134201196" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2464500" lon="-96.0151816"/>
+ <node id="134201199" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2463245" lon="-96.0151633"/>
+ <node id="134201200" visible="true" version="4" changeset="13526748" timestamp="2012-10-17T04:43:36Z" user="Your Village Maps" uid="227972" lat="41.2461897" lon="-96.0151386"/>
+ <node id="134201201" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2459664" lon="-96.0150633"/>
+ <node id="134201203" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2456519" lon="-96.0148928"/>
+ <node id="134201206" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2455528" lon="-96.0148344"/>
+ <node id="134201210" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2453395" lon="-96.0147398"/>
+ <node id="134201212" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2449666" lon="-96.0146430"/>
+ <node id="134236725" visible="true" version="2" changeset="3097046" timestamp="2009-11-12T11:10:39Z" user="woodpeck_fixbot" uid="147510" lat="41.2414880" lon="-96.0047470"/>
+ <node id="644562471" visible="true" version="2" changeset="9170275" timestamp="2011-08-30T19:12:13Z" user="PHerison" uid="28378" lat="41.2437662" lon="-96.0189989"/>
+ <node id="644562476" visible="true" version="2" changeset="9170275" timestamp="2011-08-30T19:12:13Z" user="PHerison" uid="28378" lat="41.2437696" lon="-96.0191845"/>
+ <node id="677289048" visible="true" version="2" changeset="38134949" timestamp="2016-03-29T04:45:19Z" user="Your Village Maps" uid="227972" lat="41.2447374" lon="-96.0227487">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677289049" visible="true" version="3" changeset="38134949" timestamp="2016-03-29T04:45:19Z" user="Your Village Maps" uid="227972" lat="41.2442453" lon="-96.0226693">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677289087" visible="true" version="2" changeset="5266321" timestamp="2010-07-20T00:15:00Z" user="bruck4" uid="101842" lat="41.2438048" lon="-96.0207496">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677289336" visible="true" version="2" changeset="5266321" timestamp="2010-07-20T00:14:59Z" user="bruck4" uid="101842" lat="41.2436273" lon="-96.0185742">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677289337" visible="true" version="2" changeset="5266321" timestamp="2010-07-20T00:14:59Z" user="bruck4" uid="101842" lat="41.2436233" lon="-96.0165278">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677289338" visible="true" version="2" changeset="5266321" timestamp="2010-07-20T00:14:59Z" user="bruck4" uid="101842" lat="41.2436253" lon="-96.0145081">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677289339" visible="true" version="2" changeset="5266321" timestamp="2010-07-20T00:14:59Z" user="bruck4" uid="101842" lat="41.2450513" lon="-96.0144759">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677289350" visible="true" version="2" changeset="5266321" timestamp="2010-07-20T00:14:59Z" user="bruck4" uid="101842" lat="41.2464165" lon="-96.0145215">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677289510" visible="true" version="2" changeset="5266321" timestamp="2010-07-20T00:16:13Z" user="bruck4" uid="101842" lat="41.2474753" lon="-96.0145268">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677289511" visible="true" version="3" changeset="38112101" timestamp="2016-03-28T06:51:05Z" user="Your Village Maps" uid="227972" lat="41.2486216" lon="-96.0144995">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290565" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:43Z" user="bruck4" uid="101842" lat="41.2486773" lon="-96.0128557">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290570" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:43Z" user="bruck4" uid="101842" lat="41.2486792" lon="-96.0114638">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290576" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:42Z" user="bruck4" uid="101842" lat="41.2486752" lon="-96.0101789">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290577" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:42Z" user="bruck4" uid="101842" lat="41.2486752" lon="-96.0090014">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290578" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:42Z" user="bruck4" uid="101842" lat="41.2486711" lon="-96.0076926">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290579" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:42Z" user="bruck4" uid="101842" lat="41.2486671" lon="-96.0062040">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290595" visible="true" version="4" changeset="38112101" timestamp="2016-03-28T06:51:05Z" user="Your Village Maps" uid="227972" lat="41.2486600" lon="-96.0048876">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290604" visible="true" version="4" changeset="38112101" timestamp="2016-03-28T05:42:40Z" user="Your Village Maps" uid="227972" lat="41.2498919" lon="-96.0048825">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290613" visible="true" version="4" changeset="38112101" timestamp="2016-03-28T05:42:40Z" user="Your Village Maps" uid="227972" lat="41.2511599" lon="-96.0048864">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290616" visible="true" version="4" changeset="38112101" timestamp="2016-03-28T05:42:40Z" user="Your Village Maps" uid="227972" lat="41.2524423" lon="-96.0048955">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290701" visible="true" version="4" changeset="38112101" timestamp="2016-03-28T05:42:40Z" user="Your Village Maps" uid="227972" lat="41.2524450" lon="-96.0033960">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290780" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:42Z" user="bruck4" uid="101842" lat="41.2524261" lon="-96.0019901">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290781" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:42Z" user="bruck4" uid="101842" lat="41.2524320" lon="-96.0005739">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290783" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:42Z" user="bruck4" uid="101842" lat="41.2524401" lon="-95.9992248">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290826" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:42Z" user="bruck4" uid="101842" lat="41.2524441" lon="-95.9976879">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290830" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:42Z" user="bruck4" uid="101842" lat="41.2524462" lon="-95.9962260">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290843" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:41Z" user="bruck4" uid="101842" lat="41.2524503" lon="-95.9947401">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290852" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:41Z" user="bruck4" uid="101842" lat="41.2524562" lon="-95.9932863">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290872" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:41Z" user="bruck4" uid="101842" lat="41.2524663" lon="-95.9918971">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290873" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:41Z" user="bruck4" uid="101842" lat="41.2524663" lon="-95.9905238">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290874" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:41Z" user="bruck4" uid="101842" lat="41.2524724" lon="-95.9889894">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="677290875" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:41Z" user="bruck4" uid="101842" lat="41.2524825" lon="-95.9874017">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="686195401" visible="true" version="3" changeset="5266321" timestamp="2010-07-20T00:20:41Z" user="bruck4" uid="101842" lat="41.2525306" lon="-95.9858088">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="686195433" visible="true" version="4" changeset="15330933" timestamp="2013-03-11T17:59:22Z" user="42429" uid="42429" lat="41.2526352" lon="-95.9855392">
+  <tag k="power" v="tower"/>
+ </node>
+ <node id="1042207859" visible="true" version="4" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2388282" lon="-96.0146014"/>
+ <node id="1129105970" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2404271" lon="-96.0120375"/>
+ <node id="1129105971" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2415064" lon="-96.0120494"/>
+ <node id="1129105973" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2398474" lon="-96.0120351"/>
+ <node id="1129105974" visible="true" version="2" changeset="9170275" timestamp="2011-08-30T19:12:01Z" user="PHerison" uid="28378" lat="41.2398377" lon="-96.0146452"/>
+ <node id="1129105978" visible="true" version="3" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2394286" lon="-96.0120256"/>
+ <node id="1418478408" visible="true" version="2" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2385739" lon="-96.0120216"/>
+ <node id="1418478469" visible="true" version="2" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2390912" lon="-96.0146478"/>
+ <node id="1418478477" visible="true" version="2" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2390827" lon="-96.0120232"/>
+ <node id="1418478604" visible="true" version="1" changeset="9170275" timestamp="2011-08-30T19:11:01Z" user="PHerison" uid="28378" lat="41.2437829" lon="-96.0193264"/>
+ <node id="1418479052" visible="true" version="1" changeset="9170275" timestamp="2011-08-30T19:11:09Z" user="PHerison" uid="28378" lat="41.2449198" lon="-96.0231578"/>
+ <node id="1669126349" visible="true" version="2" changeset="12709772" timestamp="2012-08-13T09:08:35Z" user="Your Village Maps" uid="227972" lat="41.2415165" lon="-96.0146398"/>
+ <node id="1772941803" visible="true" version="1" changeset="11771132" timestamp="2012-06-01T19:45:22Z" user="Your Village Maps" uid="227972" lat="41.2437649" lon="-96.0179449"/>
+ <node id="1864031333" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:27Z" user="Your Village Maps" uid="227972" lat="41.2432400" lon="-96.0110382"/>
+ <node id="1864031334" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:28Z" user="Your Village Maps" uid="227972" lat="41.2451137" lon="-96.0146708"/>
+ <node id="1864031342" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:28Z" user="Your Village Maps" uid="227972" lat="41.2454517" lon="-96.0147873"/>
+ <node id="1864031349" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:28Z" user="Your Village Maps" uid="227972" lat="41.2435809" lon="-96.0113692"/>
+ <node id="1864031350" visible="true" version="2" changeset="38970460" timestamp="2016-04-29T01:19:10Z" user="Your Village Maps" uid="227972" lat="41.2380905" lon="-96.0120196"/>
+ <node id="1864031354" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:28Z" user="Your Village Maps" uid="227972" lat="41.2452244" lon="-96.0146989"/>
+ <node id="1864031361" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:28Z" user="Your Village Maps" uid="227972" lat="41.2431346" lon="-96.0109897"/>
+ <node id="1864031363" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:29Z" user="Your Village Maps" uid="227972" lat="41.2460717" lon="-96.0151021"/>
+ <node id="1864031366" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:29Z" user="Your Village Maps" uid="227972" lat="41.2388957" lon="-96.0146264"/>
+ <node id="1864031368" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:29Z" user="Your Village Maps" uid="227972" lat="41.2389806" lon="-96.0146403"/>
+ <node id="1864031369" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:29Z" user="Your Village Maps" uid="227972" lat="41.2435105" lon="-96.0112688"/>
+ <node id="1864031370" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:29Z" user="Your Village Maps" uid="227972" lat="41.2430161" lon="-96.0109606"/>
+ <node id="1864031371" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:29Z" user="Your Village Maps" uid="227972" lat="41.2458486" lon="-96.0150079"/>
+ <node id="1864031373" visible="true" version="2" changeset="38970460" timestamp="2016-04-29T01:19:11Z" user="Your Village Maps" uid="227972" lat="41.2379542" lon="-96.0120037">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="1959691658" visible="true" version="1" changeset="13460858" timestamp="2012-10-11T23:22:39Z" user="Your Village Maps" uid="227972" lat="41.2471650" lon="-96.0151879">
+  <tag k="bicycle" v="dismount"/>
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="horse" v="no"/>
+  <tag k="source" v="bing"/>
+ </node>
+ <node id="1959691916" visible="true" version="1" changeset="13460858" timestamp="2012-10-11T23:22:43Z" user="Your Village Maps" uid="227972" lat="41.2449667" lon="-96.0145371"/>
+ <node id="1959692170" visible="true" version="1" changeset="13460858" timestamp="2012-10-11T23:22:45Z" user="Your Village Maps" uid="227972" lat="41.2449752" lon="-96.0146464">
+  <tag k="bicycle" v="dismount"/>
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="horse" v="no"/>
+  <tag k="source" v="bing"/>
+ </node>
+ <node id="1959692203" visible="true" version="1" changeset="13460858" timestamp="2012-10-11T23:22:46Z" user="Your Village Maps" uid="227972" lat="41.2449862" lon="-96.0147331"/>
+ <node id="1982185319" visible="true" version="1" changeset="13622313" timestamp="2012-10-24T23:39:26Z" user="Your Village Maps" uid="227972" lat="41.2419395" lon="-96.0095799"/>
+ <node id="1982185320" visible="true" version="1" changeset="13622313" timestamp="2012-10-24T23:39:26Z" user="Your Village Maps" uid="227972" lat="41.2423900" lon="-96.0053316"/>
+ <node id="1982185322" visible="true" version="1" changeset="13622313" timestamp="2012-10-24T23:39:26Z" user="Your Village Maps" uid="227972" lat="41.2441926" lon="-96.0053316"/>
+ <node id="1982185323" visible="true" version="1" changeset="13622313" timestamp="2012-10-24T23:39:26Z" user="Your Village Maps" uid="227972" lat="41.2414899" lon="-96.0053370"/>
+ <node id="1982185325" visible="true" version="1" changeset="13622313" timestamp="2012-10-24T23:39:26Z" user="Your Village Maps" uid="227972" lat="41.2414936" lon="-96.0065534"/>
+ <node id="1982185343" visible="true" version="1" changeset="13622313" timestamp="2012-10-24T23:39:26Z" user="Your Village Maps" uid="227972" lat="41.2414965" lon="-96.0077510"/>
+ <node id="1982185353" visible="true" version="1" changeset="13622313" timestamp="2012-10-24T23:39:27Z" user="Your Village Maps" uid="227972" lat="41.2419395" lon="-96.0071455"/>
+ <node id="1982185355" visible="true" version="1" changeset="13622313" timestamp="2012-10-24T23:39:27Z" user="Your Village Maps" uid="227972" lat="41.2432927" lon="-96.0053477"/>
+ <node id="1982185362" visible="true" version="1" changeset="13622313" timestamp="2012-10-24T23:39:27Z" user="Your Village Maps" uid="227972" lat="41.2414980" lon="-96.0089419"/>
+ <node id="2386601247" visible="true" version="1" changeset="16976461" timestamp="2013-07-16T16:34:08Z" user="Aaron Lidman" uid="53073" lat="41.2448848" lon="-96.0101529"/>
+ <node id="2386601249" visible="true" version="1" changeset="16976461" timestamp="2013-07-16T16:34:08Z" user="Aaron Lidman" uid="53073" lat="41.2449057" lon="-96.0146383"/>
+ <node id="2386601251" visible="true" version="1" changeset="16976461" timestamp="2013-07-16T16:34:08Z" user="Aaron Lidman" uid="53073" lat="41.2449178" lon="-96.0166413"/>
+ <node id="3014811970" visible="true" version="1" changeset="24728745" timestamp="2014-08-13T17:46:05Z" user="keckbug" uid="2259712" lat="41.2403434" lon="-96.0146436"/>
+ <node id="3220588278" visible="true" version="2" changeset="45211863" timestamp="2017-01-16T10:08:50Z" user="GoWestTravel" uid="3478684" lat="41.2431605" lon="-96.0141312">
+  <tag k="addr:city" v="Omaha"/>
+  <tag k="addr:housenumber" v="1625"/>
+  <tag k="addr:postcode" v="68106"/>
+  <tag k="addr:state" v="NE"/>
+  <tag k="addr:street" v="South 67th Street"/>
+  <tag k="name" v="Courtyard Omaha Aksarben Village"/>
+  <tag k="tourism" v="hotel"/>
+ </node>
+ <node id="3583691169" visible="true" version="1" changeset="31846474" timestamp="2015-06-09T14:53:56Z" user="abel801" uid="2377377" lat="41.2404529" lon="-96.0109523"/>
+ <node id="3956137146" visible="true" version="2" changeset="39008710" timestamp="2016-05-01T00:42:47Z" user="Your Village Maps" uid="227972" lat="41.2419971" lon="-96.0153112"/>
+ <node id="3956137147" visible="true" version="1" changeset="36693572" timestamp="2016-01-20T05:40:16Z" user="midnightcomm" uid="10344" lat="41.2419954" lon="-96.0146390"/>
+ <node id="4082405983" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:55Z" user="Your Village Maps" uid="227972" lat="41.2440922" lon="-96.0143877"/>
+ <node id="4082408505" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:55Z" user="Your Village Maps" uid="227972" lat="41.2442550" lon="-96.0130928"/>
+ <node id="4082408506" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:55Z" user="Your Village Maps" uid="227972" lat="41.2442548" lon="-96.0131807"/>
+ <node id="4082408525" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:56Z" user="Your Village Maps" uid="227972" lat="41.2448347" lon="-96.0130917"/>
+ <node id="4082408538" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:56Z" user="Your Village Maps" uid="227972" lat="41.2449906" lon="-96.0142766"/>
+ <node id="4082408556" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:56Z" user="Your Village Maps" uid="227972" lat="41.2440953" lon="-96.0130921"/>
+ <node id="4082408568" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:56Z" user="Your Village Maps" uid="227972" lat="41.2448317" lon="-96.0143907"/>
+ <node id="4082408593" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:57Z" user="Your Village Maps" uid="227972" lat="41.2423891" lon="-96.0049183"/>
+ <node id="4082408607" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:57Z" user="Your Village Maps" uid="227972" lat="41.2448945" lon="-96.0122401"/>
+ <node id="4082408608" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:57Z" user="Your Village Maps" uid="227972" lat="41.2449117" lon="-96.0130588"/>
+ <node id="4082408646" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:58Z" user="Your Village Maps" uid="227972" lat="41.2446386" lon="-96.0131823"/>
+ <node id="4082408657" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:58Z" user="Your Village Maps" uid="227972" lat="41.2449983" lon="-96.0141885"/>
+ <node id="4082408666" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:58Z" user="Your Village Maps" uid="227972" lat="41.2423985" lon="-96.0048069"/>
+ <node id="4082408675" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:58Z" user="Your Village Maps" uid="227972" lat="41.2449140" lon="-96.0124392"/>
+ <node id="4082408681" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:59Z" user="Your Village Maps" uid="227972" lat="41.2450003" lon="-96.0131183"/>
+ <node id="4082408684" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:59Z" user="Your Village Maps" uid="227972" lat="41.2449072" lon="-96.0123257"/>
+ <node id="4082408686" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:59Z" user="Your Village Maps" uid="227972" lat="41.2446389" lon="-96.0130909"/>
+ <node id="4082408719" visible="true" version="1" changeset="38112101" timestamp="2016-03-28T06:50:59Z" user="Your Village Maps" uid="227972" lat="41.2448882" lon="-96.0121496"/>
+ <node id="4154573813" visible="true" version="1" changeset="38970460" timestamp="2016-04-29T01:19:08Z" user="Your Village Maps" uid="227972" lat="41.2380415" lon="-96.0120173">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="source" v="Bing"/>
+ </node>
+ <node id="4166768852" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2404961" lon="-96.0150705"/>
+ <node id="4166768853" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2405045" lon="-96.0154582"/>
+ <node id="4166768854" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2406091" lon="-96.0148681"/>
+ <node id="4166768855" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2406134" lon="-96.0150660"/>
+ <node id="4166768856" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2407514" lon="-96.0152653"/>
+ <node id="4166768857" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2407554" lon="-96.0154486"/>
+ <node id="4166768858" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2414396" lon="-96.0148363"/>
+ <node id="4166768859" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2414483" lon="-96.0152387"/>
+ <node id="4166768860" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2416126" lon="-96.0130610"/>
+ <node id="4166768861" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2416140" lon="-96.0132698"/>
+ <node id="4166768862" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2416547" lon="-96.0119527"/>
+ <node id="4166768863" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2416564" lon="-96.0121709"/>
+ <node id="4166768864" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2416566" lon="-96.0111860"/>
+ <node id="4166768865" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2416630" lon="-96.0129322"/>
+ <node id="4166768866" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2418015" lon="-96.0123642"/>
+ <node id="4166768867" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2418064" lon="-96.0129300"/>
+ <node id="4166768868" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2418083" lon="-96.0117626"/>
+ <node id="4166768869" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2418096" lon="-96.0111867"/>
+ <node id="4166768870" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2418849" lon="-96.0143714"/>
+ <node id="4166768871" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2418929" lon="-96.0137963"/>
+ <node id="4166768872" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2419921" lon="-96.0111898"/>
+ <node id="4166768873" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2419929" lon="-96.0113944"/>
+ <node id="4166768874" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2420015" lon="-96.0118327"/>
+ <node id="4166768875" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2420016" lon="-96.0117634"/>
+ <node id="4166768876" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2420259" lon="-96.0121652"/>
+ <node id="4166768877" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2420276" lon="-96.0123607"/>
+ <node id="4166768878" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2420286" lon="-96.0119542"/>
+ <node id="4166768879" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2420289" lon="-96.0118328"/>
+ <node id="4166768880" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2420451" lon="-96.0127845"/>
+ <node id="4166768881" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2420468" lon="-96.0130560"/>
+ <node id="4166768882" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2420505" lon="-96.0141790"/>
+ <node id="4166768883" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2420557" lon="-96.0138003"/>
+ <node id="4166768884" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2421936" lon="-96.0127828"/>
+ <node id="4166768885" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2421967" lon="-96.0132631"/>
+ <node id="4166768886" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2423983" lon="-96.0113914"/>
+ <node id="4166768887" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2423994" lon="-96.0116456"/>
+ <node id="4166769192" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2425653" lon="-96.0111855"/>
+ <node id="4166769193" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2425672" lon="-96.0116444"/>
+ <node id="4166769196" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2426076" lon="-96.0143890"/>
+ <node id="4166769197" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:06Z" user="midnightcomm" uid="10344" lat="41.2426103" lon="-96.0141927"/>
+ <node id="4611661937" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2435917" lon="-96.0140637"/>
+ <node id="4611661938" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2435646" lon="-96.0140642"/>
+ <node id="4611661939" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2435644" lon="-96.0140486"/>
+ <node id="4611661940" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2433080" lon="-96.0140536"/>
+ <node id="4611661941" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2433077" lon="-96.0140202"/>
+ <node id="4611661942" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2431672" lon="-96.0140229"/>
+ <node id="4611661943" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2431406" lon="-96.0140088"/>
+ <node id="4611661944" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2430980" lon="-96.0140105"/>
+ <node id="4611661945" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2430834" lon="-96.0140229"/>
+ <node id="4611661946" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2430091" lon="-96.0140233"/>
+ <node id="4611661947" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2430091" lon="-96.0140392"/>
+ <node id="4611661948" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2427864" lon="-96.0140402"/>
+ <node id="4611661949" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2427866" lon="-96.0141360"/>
+ <node id="4611661950" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2428042" lon="-96.0141360"/>
+ <node id="4611661951" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2428044" lon="-96.0142382"/>
+ <node id="4611661952" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2428257" lon="-96.0142381"/>
+ <node id="4611661953" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2428257" lon="-96.0142612"/>
+ <node id="4611661954" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2430453" lon="-96.0142611"/>
+ <node id="4611661955" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2430453" lon="-96.0142873"/>
+ <node id="4611661956" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2430698" lon="-96.0142873"/>
+ <node id="4611661957" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2430887" lon="-96.0142970"/>
+ <node id="4611661958" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2431180" lon="-96.0142990"/>
+ <node id="4611661959" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2431499" lon="-96.0142830"/>
+ <node id="4611661960" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2433102" lon="-96.0142803"/>
+ <node id="4611661961" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2433100" lon="-96.0142535"/>
+ <node id="4611661962" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2435634" lon="-96.0142491"/>
+ <node id="4611661963" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2435629" lon="-96.0142042"/>
+ <node id="4611661964" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2435931" lon="-96.0142036"/>
+ <node id="4611661965" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:25Z" user="GoWestTravel" uid="3478684" lat="41.2422316" lon="-96.0142942">
+  <tag k="name" v="Residence Inn Omaha Aksarben Village"/>
+  <tag k="tourism" v="hotel"/>
+ </node>
+ <node id="4629935244" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2437590" lon="-96.0107765"/>
+ <node id="4629935245" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2435442" lon="-96.0107798"/>
+ <node id="4629935246" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2435427" lon="-96.0106015"/>
+ <node id="4629935247" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2437575" lon="-96.0105982"/>
+ <node id="4629935248" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2448693" lon="-96.0124059"/>
+ <node id="4629935249" visible="true" version="2" changeset="46990015" timestamp="2017-03-19T18:28:14Z" user="Takafiji" uid="5518161" lat="41.2447990" lon="-96.0123104">
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="4629935250" visible="true" version="2" changeset="45723933" timestamp="2017-02-01T18:41:10Z" user="natecrch" uid="5176542" lat="41.2440660" lon="-96.0124070"/>
+ <node id="4629935251" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2444642" lon="-96.0129792"/>
+ <node id="4629935252" visible="true" version="2" changeset="45723933" timestamp="2017-02-01T18:41:10Z" user="natecrch" uid="5176542" lat="41.2444456" lon="-96.0126242"/>
+ <node id="4629935253" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2447527" lon="-96.0122814"/>
+ <node id="4629935254" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2447766" lon="-96.0123305"/>
+ <node id="4629935255" visible="true" version="2" changeset="45723933" timestamp="2017-02-01T18:41:10Z" user="natecrch" uid="5176542" lat="41.2441446" lon="-96.0123027"/>
+ <node id="4629935256" visible="true" version="2" changeset="45723933" timestamp="2017-02-01T18:41:10Z" user="natecrch" uid="5176542" lat="41.2443844" lon="-96.0125465"/>
+ <node id="4629935257" visible="true" version="2" changeset="45723933" timestamp="2017-02-01T18:41:10Z" user="natecrch" uid="5176542" lat="41.2441587" lon="-96.0123200"/>
+ <node id="4629935258" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2441841" lon="-96.0122854"/>
+ <node id="4629935259" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2442438" lon="-96.0123639"/>
+ <node id="4629935260" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2442577" lon="-96.0123482"/>
+ <node id="4629935261" visible="true" version="2" changeset="45723933" timestamp="2017-02-01T18:41:10Z" user="natecrch" uid="5176542" lat="41.2443677" lon="-96.0124966"/>
+ <node id="4629935262" visible="true" version="2" changeset="45723933" timestamp="2017-02-01T18:41:10Z" user="natecrch" uid="5176542" lat="41.2443576" lon="-96.0125078"/>
+ <node id="4629935263" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2443904" lon="-96.0125354"/>
+ <node id="4629935264" visible="true" version="2" changeset="45723933" timestamp="2017-02-01T18:41:10Z" user="natecrch" uid="5176542" lat="41.2444544" lon="-96.0126167"/>
+ <node id="4629935265" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2444950" lon="-96.0126145"/>
+ <node id="4629935266" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2445490" lon="-96.0125435"/>
+ <node id="4629935267" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2445637" lon="-96.0125466"/>
+ <node id="4629935268" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2445849" lon="-96.0125157"/>
+ <node id="4629935269" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2445847" lon="-96.0124921"/>
+ <node id="4629935270" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2446794" lon="-96.0123522"/>
+ <node id="4629935271" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2446932" lon="-96.0123636"/>
+ <node id="4629935272" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2443481" lon="-96.0128287"/>
+ <node id="4629935273" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2443680" lon="-96.0128003"/>
+ <node id="4629935274" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2443504" lon="-96.0127678"/>
+ <node id="4629935275" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2443309" lon="-96.0127657"/>
+ <node id="4629935276" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2442783" lon="-96.0126936"/>
+ <node id="4629935277" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2442888" lon="-96.0126778"/>
+ <node id="4629935278" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2442619" lon="-96.0126476"/>
+ <node id="4629935279" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2442423" lon="-96.0126569"/>
+ <node id="4629935280" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2441317" lon="-96.0125151"/>
+ <node id="4629935281" visible="true" version="2" changeset="45723933" timestamp="2017-02-01T18:41:10Z" user="natecrch" uid="5176542" lat="41.2441396" lon="-96.0125051"/>
+ <node id="4629935282" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2441064" lon="-96.0124576"/>
+ <node id="4629935283" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2445235" lon="-96.0122230"/>
+ <node id="4629935284" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2440794" lon="-96.0122237"/>
+ <node id="4629935285" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2442342" lon="-96.0122200"/>
+ <node id="4629935286" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2440783" lon="-96.0116318"/>
+ <node id="4629935287" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2445233" lon="-96.0116337"/>
+ <node id="4629935288" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2445646" lon="-96.0122129"/>
+ <node id="4629935389" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2446143" lon="-96.0121937"/>
+ <node id="4629935390" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2442109" lon="-96.0123117"/>
+ <node id="4629935391" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2442312" lon="-96.0122877"/>
+ <node id="4629935392" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2442489" lon="-96.0122716"/>
+ <node id="4629935393" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2442792" lon="-96.0122615"/>
+ <node id="4629935394" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2443096" lon="-96.0122443"/>
+ <node id="4629935395" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2443218" lon="-96.0122235"/>
+ <node id="4629935396" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2444456" lon="-96.0122233"/>
+ <node id="4629935397" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2446269" lon="-96.0121840"/>
+ <node id="4629935398" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2446255" lon="-96.0121548"/>
+ <node id="4629935399" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2446355" lon="-96.0121565"/>
+ <node id="4629935400" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2446375" lon="-96.0120984"/>
+ <node id="4629935401" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2446354" lon="-96.0120469"/>
+ <node id="4629935402" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2446283" lon="-96.0120294"/>
+ <node id="4629935403" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2446293" lon="-96.0118864"/>
+ <node id="4629935404" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2445304" lon="-96.0118861"/>
+ <node id="4629935405" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2440781" lon="-96.0121057"/>
+ <node id="4629935406" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2440836" lon="-96.0120832"/>
+ <node id="4629935407" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2440572" lon="-96.0120903"/>
+ <node id="4629935408" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2440181" lon="-96.0120227"/>
+ <node id="4629935409" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:00Z" user="natecrch" uid="5176542" lat="41.2440322" lon="-96.0120011"/>
+ <node id="4629935410" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2439964" lon="-96.0120167"/>
+ <node id="4629935411" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2439831" lon="-96.0119533"/>
+ <node id="4629935412" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2439841" lon="-96.0119034"/>
+ <node id="4629935413" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2439999" lon="-96.0118499"/>
+ <node id="4629935414" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2440460" lon="-96.0118700"/>
+ <node id="4629935415" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2440660" lon="-96.0118129"/>
+ <node id="4629935416" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2440607" lon="-96.0117803"/>
+ <node id="4629935417" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2440764" lon="-96.0117640"/>
+ <node id="4629935418" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2443650" lon="-96.0116348"/>
+ <node id="4629935419" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2443638" lon="-96.0115053"/>
+ <node id="4629935420" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2443036" lon="-96.0116356"/>
+ <node id="4629935421" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542" lat="41.2443016" lon="-96.0115013"/>
+ <node id="4640923255" visible="true" version="1" changeset="45608540" timestamp="2017-01-29T01:34:54Z" user="midnightcomm" uid="10344" lat="41.2432290" lon="-96.0143418"/>
+ <node id="4640923256" visible="true" version="1" changeset="45608540" timestamp="2017-01-29T01:34:54Z" user="midnightcomm" uid="10344" lat="41.2431345" lon="-96.0143396"/>
+ <node id="4640923257" visible="true" version="1" changeset="45608540" timestamp="2017-01-29T01:34:54Z" user="midnightcomm" uid="10344" lat="41.2431329" lon="-96.0144603"/>
+ <node id="4640923258" visible="true" version="1" changeset="45608540" timestamp="2017-01-29T01:34:54Z" user="midnightcomm" uid="10344" lat="41.2432274" lon="-96.0144625"/>
+ <node id="4653557277" visible="true" version="1" changeset="45723933" timestamp="2017-02-01T18:41:09Z" user="natecrch" uid="5176542" lat="41.2445041" lon="-96.0126258"/>
+ <node id="4653557278" visible="true" version="1" changeset="45723933" timestamp="2017-02-01T18:41:09Z" user="natecrch" uid="5176542" lat="41.2444731" lon="-96.0126617"/>
+ <node id="4702658450" visible="true" version="1" changeset="46354921" timestamp="2017-02-24T01:40:03Z" user="midnightcomm" uid="10344" lat="41.2421116" lon="-96.0106156"/>
+ <node id="4702658451" visible="true" version="1" changeset="46354921" timestamp="2017-02-24T01:40:03Z" user="midnightcomm" uid="10344" lat="41.2421116" lon="-96.0102582"/>
+ <node id="4702658452" visible="true" version="1" changeset="46354921" timestamp="2017-02-24T01:40:03Z" user="midnightcomm" uid="10344" lat="41.2419220" lon="-96.0102582"/>
+ <node id="4702658453" visible="true" version="1" changeset="46354921" timestamp="2017-02-24T01:40:03Z" user="midnightcomm" uid="10344" lat="41.2419220" lon="-96.0106156"/>
+ <node id="4702658461" visible="true" version="1" changeset="46354921" timestamp="2017-02-24T01:40:03Z" user="midnightcomm" uid="10344" lat="41.2389388" lon="-96.0146335">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <way id="14090234" visible="true" version="9" changeset="13526387" timestamp="2012-10-17T01:51:47Z" user="Your Village Maps" uid="227972">
+  <nd ref="134168676"/>
+  <nd ref="1864031369"/>
+  <nd ref="1864031349"/>
+  <nd ref="134168679"/>
+  <nd ref="134168681"/>
+  <nd ref="134168683"/>
+  <nd ref="134168685"/>
+  <nd ref="134168687"/>
+  <nd ref="134168688"/>
+  <tag k="access" v="yes"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="3"/>
+  <tag k="motor_vehicle" v="yes"/>
+  <tag k="name" v="Pine Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="surface" v="paved"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="Douglas, NE"/>
+  <tag k="tiger:name_base" v="Pine"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:separated" v="no"/>
+  <tag k="tiger:source" v="tiger_import_dch_v0.6_20070813"/>
+  <tag k="tiger:tlid" v="117023533:117018204:117016402:117008578"/>
+  <tag k="tiger:zip_left" v="68106"/>
+  <tag k="tiger:zip_right" v="68106"/>
+ </way>
+ <way id="14092356" visible="true" version="7" changeset="38112101" timestamp="2016-03-28T06:51:07Z" user="Your Village Maps" uid="227972">
+  <nd ref="3583691169"/>
+  <nd ref="134196309"/>
+  <tag k="highway" v="living_street"/>
+  <tag k="name" v="Cedar Plaza"/>
+ </way>
+ <way id="14096039" visible="true" version="6" changeset="13622313" timestamp="2012-10-24T23:39:34Z" user="Your Village Maps" uid="227972">
+  <nd ref="134236725"/>
+  <nd ref="1982185323"/>
+  <nd ref="134085455"/>
+  <nd ref="1982185325"/>
+  <nd ref="134010289"/>
+  <nd ref="1982185343"/>
+  <nd ref="134127796"/>
+  <nd ref="1982185362"/>
+  <nd ref="134068888"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Shirley Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="Douglas, NE"/>
+  <tag k="tiger:name_base" v="Shirley"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:separated" v="no"/>
+  <tag k="tiger:source" v="tiger_import_dch_v0.6_20070813"/>
+  <tag k="tiger:tlid" v="116981648:117008600:116981656:116981733:116981660"/>
+  <tag k="tiger:zip_left" v="68106"/>
+  <tag k="tiger:zip_right" v="68106"/>
+ </way>
+ <way id="68667071" visible="true" version="6" changeset="38112101" timestamp="2016-03-28T05:42:46Z" user="Your Village Maps" uid="227972">
+  <nd ref="1418479052"/>
+  <nd ref="677289048"/>
+  <nd ref="677289049"/>
+  <nd ref="677289087"/>
+  <nd ref="677289336"/>
+  <nd ref="677289337"/>
+  <nd ref="677289338"/>
+  <nd ref="677289339"/>
+  <nd ref="677289350"/>
+  <nd ref="677289510"/>
+  <nd ref="677289511"/>
+  <nd ref="677290565"/>
+  <nd ref="677290570"/>
+  <nd ref="677290576"/>
+  <nd ref="677290577"/>
+  <nd ref="677290578"/>
+  <nd ref="677290579"/>
+  <nd ref="677290595"/>
+  <nd ref="677290604"/>
+  <nd ref="677290613"/>
+  <nd ref="677290616"/>
+  <nd ref="677290701"/>
+  <nd ref="677290780"/>
+  <nd ref="677290781"/>
+  <nd ref="677290783"/>
+  <nd ref="677290826"/>
+  <nd ref="677290830"/>
+  <nd ref="677290843"/>
+  <nd ref="677290852"/>
+  <nd ref="677290872"/>
+  <nd ref="677290873"/>
+  <nd ref="677290874"/>
+  <nd ref="677290875"/>
+  <nd ref="686195401"/>
+  <nd ref="686195433"/>
+  <tag k="cables" v="3"/>
+  <tag k="power" v="line"/>
+  <tag k="voltage" v="69000"/>
+ </way>
+ <way id="89911752" visible="true" version="10" changeset="46354921" timestamp="2017-02-24T01:40:05Z" user="midnightcomm" uid="10344">
+  <nd ref="1669126349"/>
+  <nd ref="3014811970"/>
+  <nd ref="1129105974"/>
+  <nd ref="1418478469"/>
+  <nd ref="1864031368"/>
+  <nd ref="4702658461"/>
+  <nd ref="1864031366"/>
+  <nd ref="1042207859"/>
+  <tag k="access" v="yes"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="2"/>
+  <tag k="motor_vehicle" v="yes"/>
+  <tag k="name" v="South 67th Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="source" v="bing"/>
+  <tag k="surface" v="concrete"/>
+ </way>
+ <way id="97518869" visible="true" version="5" changeset="38970460" timestamp="2016-04-29T01:19:16Z" user="Your Village Maps" uid="227972">
+  <nd ref="134001220"/>
+  <nd ref="1864031373"/>
+  <nd ref="4154573813"/>
+  <nd ref="1864031350"/>
+  <nd ref="1418478408"/>
+  <nd ref="1418478477"/>
+  <nd ref="1129105978"/>
+  <nd ref="1129105973"/>
+  <nd ref="1129105970"/>
+  <nd ref="1129105971"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="2"/>
+  <tag k="name" v="South 64th Avenue"/>
+  <tag k="oneway" v="no"/>
+  <tag k="source" v="bing"/>
+  <tag k="surface" v="concrete"/>
+ </way>
+ <way id="175843852" visible="true" version="5" changeset="38112101" timestamp="2016-03-28T06:51:14Z" user="Your Village Maps" uid="227972">
+  <nd ref="133945979"/>
+  <nd ref="134068880"/>
+  <nd ref="133932210"/>
+  <nd ref="134068883"/>
+  <nd ref="134068885"/>
+  <nd ref="134006965"/>
+  <nd ref="1982185319"/>
+  <nd ref="134068888"/>
+  <tag k="access" v="yes"/>
+  <tag k="bicycle" v="designated"/>
+  <tag k="cycleway" v="lane"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="2"/>
+  <tag k="motor_vehicle" v="yes"/>
+  <tag k="name" v="South 63rd Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="surface" v="concrete"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="Douglas, NE"/>
+  <tag k="tiger:name_base" v="63rd"/>
+  <tag k="tiger:name_direction_prefix" v="S"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:zip_left" v="68106"/>
+  <tag k="tiger:zip_right" v="68106"/>
+ </way>
+ <way id="175843857" visible="true" version="1" changeset="12709772" timestamp="2012-08-13T09:08:32Z" user="Your Village Maps" uid="227972">
+  <nd ref="134168688"/>
+  <nd ref="1772941803"/>
+  <nd ref="134085314"/>
+  <nd ref="644562471"/>
+  <nd ref="644562476"/>
+  <nd ref="1418478604"/>
+  <nd ref="134168694"/>
+  <tag k="access" v="yes"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="5"/>
+  <tag k="motor_vehicle" v="yes"/>
+  <tag k="name" v="Pine Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="surface" v="paved"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="Douglas, NE"/>
+  <tag k="tiger:name_base" v="Pine"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:separated" v="no"/>
+  <tag k="tiger:source" v="tiger_import_dch_v0.6_20070813"/>
+  <tag k="tiger:tlid" v="117023533:117018204:117016402:117008578"/>
+  <tag k="tiger:zip_left" v="68106"/>
+  <tag k="tiger:zip_right" v="68106"/>
+ </way>
+ <way id="175843858" visible="true" version="4" changeset="38112101" timestamp="2016-03-28T06:51:14Z" user="Your Village Maps" uid="227972">
+  <nd ref="134068888"/>
+  <nd ref="134196309"/>
+  <nd ref="1129105971"/>
+  <nd ref="1669126349"/>
+  <tag k="bicycle" v="designated"/>
+  <tag k="cycleway" v="shared_lane"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="2"/>
+  <tag k="name" v="Shirley Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="surface" v="paved"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="Douglas, NE"/>
+  <tag k="tiger:name_base" v="Shirley"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:zip_left" v="68106"/>
+  <tag k="tiger:zip_right" v="68106"/>
+ </way>
+ <way id="185368853" visible="true" version="4" changeset="38112101" timestamp="2016-03-28T06:51:12Z" user="Your Village Maps" uid="227972">
+  <nd ref="134201186"/>
+  <nd ref="1959691658"/>
+  <nd ref="134201189"/>
+  <nd ref="134201192"/>
+  <nd ref="134201196"/>
+  <nd ref="134201199"/>
+  <nd ref="134201200"/>
+  <nd ref="1864031363"/>
+  <nd ref="134201201"/>
+  <nd ref="1864031371"/>
+  <nd ref="134201203"/>
+  <nd ref="134201206"/>
+  <nd ref="1864031342"/>
+  <nd ref="134201210"/>
+  <nd ref="1864031354"/>
+  <nd ref="1864031334"/>
+  <nd ref="1959692170"/>
+  <nd ref="134201212"/>
+  <nd ref="2386601249"/>
+  <nd ref="134168688"/>
+  <tag k="access" v="yes"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="2"/>
+  <tag k="motor_vehicle" v="yes"/>
+  <tag k="name" v="South 67th Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="source" v="bing"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="Douglas, NE"/>
+  <tag k="tiger:name_base" v="67th"/>
+  <tag k="tiger:name_direction_prefix" v="S"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:zip_left" v="68106"/>
+  <tag k="tiger:zip_right" v="68106"/>
+ </way>
+ <way id="185368856" visible="true" version="2" changeset="13622313" timestamp="2012-10-24T23:39:33Z" user="Your Village Maps" uid="227972">
+  <nd ref="134168942"/>
+  <nd ref="134168943"/>
+  <nd ref="1982185322"/>
+  <nd ref="134010287"/>
+  <nd ref="134069022"/>
+  <nd ref="134068883"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Pine Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="Douglas, NE"/>
+  <tag k="tiger:name_base" v="Pine"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:separated" v="no"/>
+  <tag k="tiger:source" v="tiger_import_dch_v0.6_20070813"/>
+  <tag k="tiger:tlid" v="116981644:116981650:116981652:116981756:116981736"/>
+  <tag k="tiger:zip_left" v="68106"/>
+  <tag k="tiger:zip_right" v="68106"/>
+ </way>
+ <way id="185376780" visible="true" version="2" changeset="38112101" timestamp="2016-03-28T06:51:07Z" user="Your Village Maps" uid="227972">
+  <nd ref="1959692203"/>
+  <nd ref="1959692170"/>
+  <nd ref="1959691916"/>
+  <nd ref="4082408538"/>
+  <nd ref="4082408657"/>
+  <nd ref="4082408681"/>
+  <nd ref="4082408608"/>
+  <tag k="access" v="yes"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="foot" v="yes"/>
+  <tag k="highway" v="footway"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="source" v="bing"/>
+  <tag k="surface" v="concrete"/>
+ </way>
+ <way id="186245222" visible="true" version="3" changeset="38112101" timestamp="2016-03-28T06:51:08Z" user="Your Village Maps" uid="227972">
+  <nd ref="134006955"/>
+  <nd ref="4082408666"/>
+  <nd ref="4082408593"/>
+  <nd ref="1982185320"/>
+  <nd ref="134006961"/>
+  <nd ref="134006965"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Walnut Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="Douglas, NE"/>
+  <tag k="tiger:name_base" v="Walnut"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:zip_left" v="68106"/>
+  <tag k="tiger:zip_right" v="68106"/>
+ </way>
+ <way id="186245226" visible="true" version="2" changeset="13622313" timestamp="2012-10-24T23:39:32Z" user="Your Village Maps" uid="227972">
+  <nd ref="134162408"/>
+  <nd ref="1982185355"/>
+  <nd ref="134010288"/>
+  <nd ref="134068885"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Hickory Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="Douglas, NE"/>
+  <tag k="tiger:name_base" v="Hickory"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:separated" v="no"/>
+  <tag k="tiger:source" v="tiger_import_dch_v0.6_20070813"/>
+  <tag k="tiger:tlid" v="116981653:116981655:116983148:116981738"/>
+  <tag k="tiger:zip_left" v="68106"/>
+  <tag k="tiger:zip_right" v="68106"/>
+ </way>
+ <way id="187561692" visible="true" version="1" changeset="13622313" timestamp="2012-10-24T23:39:31Z" user="Your Village Maps" uid="227972">
+  <nd ref="1982185353"/>
+  <nd ref="1982185319"/>
+  <tag k="access" v="yes"/>
+  <tag k="highway" v="service"/>
+  <tag k="motor_vehicle" v="yes"/>
+  <tag k="oneway" v="no"/>
+  <tag k="service" v="alley"/>
+  <tag k="source" v="bing"/>
+ </way>
+ <way id="230132363" visible="true" version="3" changeset="45724162" timestamp="2017-02-01T18:50:45Z" user="natecrch" uid="5176542">
+  <nd ref="2386601251"/>
+  <nd ref="2386601249"/>
+  <nd ref="4082408608"/>
+  <nd ref="4082408675"/>
+  <nd ref="4082408684"/>
+  <nd ref="4082408607"/>
+  <nd ref="4082408719"/>
+  <nd ref="2386601247"/>
+  <tag k="highway" v="service"/>
+  <tag k="oneway" v="no"/>
+  <tag k="service" v="driveway"/>
+  <tag k="surface" v="concrete"/>
+ </way>
+ <way id="321238639" visible="true" version="2" changeset="38112101" timestamp="2016-03-28T06:51:32Z" user="Your Village Maps" uid="227972">
+  <nd ref="134068888"/>
+  <nd ref="134068891"/>
+  <nd ref="134068893"/>
+  <nd ref="134068895"/>
+  <tag k="access" v="yes"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="cycleway" v="no"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="3"/>
+  <tag k="motor_vehicle" v="yes"/>
+  <tag k="name" v="South 63rd Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="surface" v="paved"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="Douglas, NE"/>
+  <tag k="tiger:name_base" v="63rd"/>
+  <tag k="tiger:name_direction_prefix" v="S"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+  <tag k="tiger:zip_left" v="68106"/>
+  <tag k="tiger:zip_right" v="68106"/>
+ </way>
+ <way id="352607471" visible="true" version="1" changeset="31846474" timestamp="2015-06-09T14:53:56Z" user="abel801" uid="2377377">
+  <nd ref="134196309"/>
+  <nd ref="134196313"/>
+  <nd ref="1864031370"/>
+  <nd ref="1864031361"/>
+  <nd ref="1864031333"/>
+  <nd ref="134196318"/>
+  <nd ref="134168676"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="4"/>
+  <tag k="name" v="South 64th Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="surface" v="paved"/>
+  <tag k="tiger:cfcc" v="A41"/>
+  <tag k="tiger:county" v="Douglas, NE"/>
+  <tag k="tiger:name_base" v="64th"/>
+  <tag k="tiger:name_direction_prefix" v="S"/>
+  <tag k="tiger:name_type" v="St"/>
+  <tag k="tiger:reviewed" v="no"/>
+ </way>
+ <way id="392388336" visible="true" version="2" changeset="39008710" timestamp="2016-05-01T00:42:48Z" user="Your Village Maps" uid="227972">
+  <nd ref="134168688"/>
+  <nd ref="3956137147"/>
+  <nd ref="1669126349"/>
+  <tag k="access" v="yes"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="2"/>
+  <tag k="motor_vehicle" v="yes"/>
+  <tag k="name" v="South 67th Street"/>
+  <tag k="oneway" v="no"/>
+  <tag k="source" v="bing"/>
+  <tag k="surface" v="paved"/>
+ </way>
+ <way id="406134736" visible="true" version="2" changeset="46990015" timestamp="2017-03-19T18:28:14Z" user="Takafiji" uid="5518161">
+  <nd ref="4082408568"/>
+  <nd ref="4082405983"/>
+  <nd ref="4082408556"/>
+  <nd ref="4082408505"/>
+  <nd ref="4082408506"/>
+  <nd ref="4082408646"/>
+  <nd ref="4082408686"/>
+  <nd ref="4082408525"/>
+  <nd ref="4082408568"/>
+  <tag k="area" v="yes"/>
+  <tag k="source" v="Bing"/>
+ </way>
+ <way id="414737612" visible="true" version="1" changeset="39008710" timestamp="2016-05-01T00:42:46Z" user="Your Village Maps" uid="227972">
+  <nd ref="3956137146"/>
+  <nd ref="3956137147"/>
+  <tag k="highway" v="service"/>
+  <tag k="oneway" v="no"/>
+  <tag k="service" v="driveway"/>
+ </way>
+ <way id="415686865" visible="true" version="2" changeset="43080471" timestamp="2016-10-22T12:42:30Z" user="maxerickson" uid="360392">
+  <nd ref="4166768860"/>
+  <nd ref="4166768881"/>
+  <nd ref="4166768880"/>
+  <nd ref="4166768884"/>
+  <nd ref="4166768885"/>
+  <nd ref="4166768861"/>
+  <nd ref="4166768860"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="415686881" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:07Z" user="midnightcomm" uid="10344">
+  <nd ref="4166769193"/>
+  <nd ref="4166769192"/>
+  <nd ref="4166768872"/>
+  <nd ref="4166768873"/>
+  <nd ref="4166768886"/>
+  <nd ref="4166768887"/>
+  <nd ref="4166769193"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="415686883" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:07Z" user="midnightcomm" uid="10344">
+  <nd ref="4166769196"/>
+  <nd ref="4166769197"/>
+  <nd ref="4166768882"/>
+  <nd ref="4166768883"/>
+  <nd ref="4166768871"/>
+  <nd ref="4166768870"/>
+  <nd ref="4166769196"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="415686888" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:07Z" user="midnightcomm" uid="10344">
+  <nd ref="4166768865"/>
+  <nd ref="4166768863"/>
+  <nd ref="4166768876"/>
+  <nd ref="4166768877"/>
+  <nd ref="4166768866"/>
+  <nd ref="4166768867"/>
+  <nd ref="4166768865"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="415686890" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:07Z" user="midnightcomm" uid="10344">
+  <nd ref="4166768874"/>
+  <nd ref="4166768879"/>
+  <nd ref="4166768878"/>
+  <nd ref="4166768862"/>
+  <nd ref="4166768864"/>
+  <nd ref="4166768869"/>
+  <nd ref="4166768868"/>
+  <nd ref="4166768875"/>
+  <nd ref="4166768874"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="415686894" visible="true" version="1" changeset="39112027" timestamp="2016-05-05T05:04:07Z" user="midnightcomm" uid="10344">
+  <nd ref="4166768858"/>
+  <nd ref="4166768854"/>
+  <nd ref="4166768855"/>
+  <nd ref="4166768852"/>
+  <nd ref="4166768853"/>
+  <nd ref="4166768857"/>
+  <nd ref="4166768856"/>
+  <nd ref="4166768859"/>
+  <nd ref="4166768858"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="466356917" visible="true" version="1" changeset="45212706" timestamp="2017-01-16T10:56:28Z" user="GoWestTravel" uid="3478684">
+  <nd ref="4611661937"/>
+  <nd ref="4611661938"/>
+  <nd ref="4611661939"/>
+  <nd ref="4611661940"/>
+  <nd ref="4611661941"/>
+  <nd ref="4611661942"/>
+  <nd ref="4611661943"/>
+  <nd ref="4611661944"/>
+  <nd ref="4611661945"/>
+  <nd ref="4611661946"/>
+  <nd ref="4611661947"/>
+  <nd ref="4611661948"/>
+  <nd ref="4611661949"/>
+  <nd ref="4611661950"/>
+  <nd ref="4611661951"/>
+  <nd ref="4611661952"/>
+  <nd ref="4611661953"/>
+  <nd ref="4611661954"/>
+  <nd ref="4611661955"/>
+  <nd ref="4611661956"/>
+  <nd ref="4611661957"/>
+  <nd ref="4611661958"/>
+  <nd ref="4611661959"/>
+  <nd ref="4611661960"/>
+  <nd ref="4611661961"/>
+  <nd ref="4611661962"/>
+  <nd ref="4611661963"/>
+  <nd ref="4611661964"/>
+  <nd ref="4611661937"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="468458309" visible="true" version="1" changeset="45443984" timestamp="2017-01-24T18:13:01Z" user="natecrch" uid="5176542">
+  <nd ref="4629935244"/>
+  <nd ref="4629935245"/>
+  <nd ref="4629935246"/>
+  <nd ref="4629935247"/>
+  <nd ref="4629935244"/>
+  <tag k="leisure" v="pitch"/>
+  <tag k="sport" v="basketball"/>
+ </way>
+ <way id="468458310" visible="true" version="3" changeset="46990015" timestamp="2017-03-19T18:28:14Z" user="Takafiji" uid="5518161">
+  <nd ref="4629935248"/>
+  <nd ref="4629935249"/>
+  <nd ref="4629935254"/>
+  <nd ref="4629935253"/>
+  <nd ref="4629935271"/>
+  <nd ref="4629935270"/>
+  <nd ref="4629935269"/>
+  <nd ref="4629935268"/>
+  <nd ref="4629935267"/>
+  <nd ref="4629935266"/>
+  <nd ref="4629935265"/>
+  <nd ref="4653557277"/>
+  <nd ref="4653557278"/>
+  <nd ref="4629935252"/>
+  <nd ref="4629935264"/>
+  <nd ref="4629935263"/>
+  <nd ref="4629935256"/>
+  <nd ref="4629935262"/>
+  <nd ref="4629935261"/>
+  <nd ref="4629935260"/>
+  <nd ref="4629935259"/>
+  <nd ref="4629935390"/>
+  <nd ref="4629935391"/>
+  <nd ref="4629935392"/>
+  <nd ref="4629935393"/>
+  <nd ref="4629935394"/>
+  <nd ref="4629935395"/>
+  <nd ref="4629935396"/>
+  <nd ref="4629935283"/>
+  <nd ref="4629935288"/>
+  <nd ref="4629935389"/>
+  <nd ref="4629935397"/>
+  <nd ref="4629935398"/>
+  <nd ref="4629935399"/>
+  <nd ref="4629935400"/>
+  <nd ref="4629935401"/>
+  <nd ref="4629935402"/>
+  <nd ref="4629935403"/>
+  <nd ref="4629935404"/>
+  <nd ref="4629935287"/>
+  <nd ref="4629935418"/>
+  <nd ref="4629935419"/>
+  <nd ref="4629935421"/>
+  <nd ref="4629935420"/>
+  <nd ref="4629935286"/>
+  <nd ref="4629935417"/>
+  <nd ref="4629935416"/>
+  <nd ref="4629935415"/>
+  <nd ref="4629935414"/>
+  <nd ref="4629935413"/>
+  <nd ref="4629935412"/>
+  <nd ref="4629935411"/>
+  <nd ref="4629935410"/>
+  <nd ref="4629935409"/>
+  <nd ref="4629935408"/>
+  <nd ref="4629935407"/>
+  <nd ref="4629935406"/>
+  <nd ref="4629935405"/>
+  <nd ref="4629935284"/>
+  <nd ref="4629935285"/>
+  <nd ref="4629935258"/>
+  <nd ref="4629935257"/>
+  <nd ref="4629935255"/>
+  <nd ref="4629935250"/>
+  <nd ref="4629935282"/>
+  <nd ref="4629935281"/>
+  <nd ref="4629935280"/>
+  <nd ref="4629935279"/>
+  <nd ref="4629935278"/>
+  <nd ref="4629935277"/>
+  <nd ref="4629935276"/>
+  <nd ref="4629935275"/>
+  <nd ref="4629935274"/>
+  <nd ref="4629935273"/>
+  <nd ref="4629935272"/>
+  <nd ref="4629935251"/>
+  <nd ref="4629935248"/>
+  <tag k="addr:city" v="Omaha"/>
+  <tag k="addr:housenumber" v="6510"/>
+  <tag k="addr:postcode" v="68106"/>
+  <tag k="addr:state" v="NE"/>
+  <tag k="addr:street" v="Pine Street"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="1,2,3,4"/>
+  <tag k="name" v="Scott Residence Hall"/>
+  <tag k="wheelchair" v="yes"/>
+ </way>
+ <way id="469807134" visible="true" version="1" changeset="45608540" timestamp="2017-01-29T01:34:57Z" user="midnightcomm" uid="10344">
+  <nd ref="4640923258"/>
+  <nd ref="4640923257"/>
+  <nd ref="4640923256"/>
+  <nd ref="4640923255"/>
+  <nd ref="4640923258"/>
+  <tag k="building" v="roof"/>
+ </way>
+ <way id="476791379" visible="true" version="1" changeset="46354921" timestamp="2017-02-24T01:40:03Z" user="midnightcomm" uid="10344">
+  <nd ref="4702658453"/>
+  <nd ref="4702658450"/>
+  <nd ref="4702658451"/>
+  <nd ref="4702658452"/>
+  <nd ref="4702658453"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <relation id="4473522" visible="true" version="14" changeset="43500346" timestamp="2016-11-08T22:50:35Z" user="midnightcomm" uid="10344">
+  <member type="way" ref="50752928" role="forward"/>
+  <member type="way" ref="165930550" role=""/>
+  <member type="way" ref="392388335" role=""/>
+  <member type="way" ref="50624658" role=""/>
+  <member type="way" ref="89911809" role=""/>
+  <member type="way" ref="414284790" role=""/>
+  <member type="way" ref="89911752" role=""/>
+  <member type="way" ref="187883986" role="forward"/>
+  <member type="way" ref="187887488" role="forward"/>
+  <member type="way" ref="322999589" role="forward"/>
+  <member type="way" ref="322999585" role=""/>
+  <member type="way" ref="322999586" role="forward"/>
+  <member type="way" ref="165673101" role="forward"/>
+  <member type="way" ref="322999584" role=""/>
+  <member type="way" ref="322999588" role=""/>
+  <member type="way" ref="322999591" role=""/>
+  <member type="way" ref="322999590" role=""/>
+  <member type="way" ref="322999587" role=""/>
+  <member type="way" ref="165650498" role=""/>
+  <member type="way" ref="406134762" role=""/>
+  <member type="way" ref="185382726" role=""/>
+  <member type="way" ref="185392693" role=""/>
+  <member type="way" ref="406134745" role=""/>
+  <member type="way" ref="186729215" role=""/>
+  <member type="way" ref="392025988" role=""/>
+  <member type="way" ref="392025987" role=""/>
+  <member type="way" ref="392025989" role=""/>
+  <member type="way" ref="14082657" role=""/>
+  <member type="way" ref="186729217" role=""/>
+  <member type="way" ref="186729206" role=""/>
+  <member type="way" ref="186729219" role=""/>
+  <member type="way" ref="176441674" role=""/>
+  <member type="way" ref="186731652" role=""/>
+  <member type="way" ref="414543439" role=""/>
+  <member type="way" ref="165662866" role="forward"/>
+  <member type="way" ref="50752924" role="forward"/>
+  <member type="way" ref="389452027" role="forward"/>
+  <member type="way" ref="389452031" role="forward"/>
+  <member type="way" ref="332491578" role="forward"/>
+  <member type="way" ref="50752929" role="forward"/>
+  <member type="way" ref="165662864" role="forward"/>
+  <member type="way" ref="187884030" role="forward"/>
+  <member type="way" ref="321238638" role=""/>
+  <member type="way" ref="175843852" role=""/>
+  <member type="way" ref="185368851" role=""/>
+  <member type="way" ref="406134732" role=""/>
+  <member type="way" ref="175843858" role=""/>
+  <member type="way" ref="414284794" role=""/>
+  <member type="way" ref="414543436" role="forward"/>
+  <member type="way" ref="392025027" role="forward"/>
+  <member type="way" ref="332491579" role="forward"/>
+  <member type="way" ref="332491580" role="forward"/>
+  <member type="way" ref="50752926" role="forward"/>
+  <member type="way" ref="187887451" role="forward"/>
+  <member type="way" ref="187887481" role="forward"/>
+  <member type="way" ref="14096178" role="forward"/>
+  <tag k="network" v="lcn"/>
+  <tag k="note" v="Signs that route exists are few and far between."/>
+  <tag k="ref" v="5"/>
+  <tag k="route" v="bicycle"/>
+  <tag k="type" v="route"/>
+ </relation>
+</osm>
