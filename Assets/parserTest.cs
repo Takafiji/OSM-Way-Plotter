@@ -52,7 +52,23 @@ public class parserTest : MonoBehaviour {
             lNodes = new List<Node>();
 		}
 	}
-	
+
+    public struct WayData
+    {
+        public long id;
+        public string name;
+        public List<long> wnodes;
+        public List<Node> nodeList;
+
+        public WayData(long ID, string NAME)
+        {
+            id = ID;
+            name = NAME;
+            wnodes = new List<long>();
+            nodeList = new List<Node>();
+        }
+    }
+
 	public List<Node> nodes = new List<Node>();
 	public List<Way> ways = new List<Way>();
 
@@ -101,6 +117,14 @@ public class parserTest : MonoBehaviour {
         }
     }
 
+    public List<WayData> parseOSM(string input)
+    {
+        List<WayData> wd = new List<WayData>();
+
+
+        return wd; 
+    }
+
     //Cannot store Transforms in an XML doc, but can store a list of ways.
     public List<Way> saveWayList (List<Way> way, string output) {
         List<Way> lWay = null;
@@ -109,7 +133,6 @@ public class parserTest : MonoBehaviour {
         const string wayNS = "OSM";     //ip of server and dir (later)
         xWsettings.Encoding = Encoding.UTF8;
         xWsettings.Indent = true;
-        //xWsettings.NewLineOnAttributes = true;
         xWsettings.IndentChars = "\t";
         try
         {
@@ -158,9 +181,6 @@ public class parserTest : MonoBehaviour {
 
     public void createWayObjects()
     {
-        /*greenNodes[0] = 134196309;
-        greenNodes[1] = 1129105971;
-        greenNodes[2] = 1669126349;*/
         for (int i = 0; i < ways.Count; i++)
         {
             wayObjects.Add(new GameObject("wayObject" + ways[i].id).transform);
@@ -179,7 +199,8 @@ public class parserTest : MonoBehaviour {
                         x = nod.lat;
                         y = nod.lon;
 
-                        switch (ways[i].wnodes[j])
+                        // works and optimal, needs to only draw material between nodes.
+                        /*switch (ways[i].wnodes[j])
                         {
                             case 1669126349:
                                 setWayColorMaterial(i, greenMat);
@@ -190,7 +211,7 @@ public class parserTest : MonoBehaviour {
                             case 1129105971:
                                 setWayColorMaterial(i, greenMat);
                                 break;
-                        }
+                        }*/
                     }
                 }
                 wayObjects[i].GetComponent<LineRenderer>().SetPosition(j, new Vector3((x - boundsX) * 100, 0, (y - boundsY) * 100));
@@ -220,25 +241,6 @@ public class parserTest : MonoBehaviour {
                     }
                     break;
             }
-        }
-        for (int i = 0; i < ways.Count; i++)
-        {
-            if (ways[i].id == 14085045)
-            {
-                Debug.Log("APPLYING GREEN MATERIAL!");
-                wayObjects[i].GetComponent<LineRenderer>().material = greenPath;
-            }
-            
-            if (ways[i].id == 14090234 || ways[i].id == 14085045 || ways[i].id == 50624668)
-            {
-                wayObjects[i].GetComponent<LineRenderer>().startColor = Color.green;
-                wayObjects[i].GetComponent<LineRenderer>().endColor = Color.green;
-            }
-            else
-            {
-                wayObjects[i].GetComponent<LineRenderer>().startColor = Color.black;
-                wayObjects[i].GetComponent<LineRenderer>().startColor = Color.black;
-            }
         }*/
     }
 
@@ -260,11 +262,6 @@ public class parserTest : MonoBehaviour {
                         {
                             Debug.Log("Count --" + i + ": wayObject" + ways[i].id);
                             wayObjects[i].GetComponent<LineRenderer>().material = greyMat;
-                            /*switch (nd.id) {
-                                case 4166768860:
-
-                                    break;
-                            }*/
                         }
                     }
                 }
@@ -280,9 +277,6 @@ public class parserTest : MonoBehaviour {
             {
                 if (nod.id == node)
                 {
-                    /*Debug.Log("MATCH!");
-                    x = nod.lat;
-                    y = nod.lon;*/
                     return true;
                 }
             }
