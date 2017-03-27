@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Xml.Serialization;
 using System.IO;
 using System.Text;
+using System.Xml.XPath;
 //Latitude = Horizontal
 //Longitude = Vertical
 
@@ -13,7 +14,7 @@ public class parserTest : MonoBehaviour {
 
     private const string assetsDir = "Assets/";
     private const string cacheDir = assetsDir + "parsedMaps/";
-    private const string map = "map-scott_court.osm";
+    private const string map = "map-south_campus.osm";
     private const string greenMat = "OSM_Green-Path";
     List<Transform> wayObjects = new List<Transform>();
 	//public Node n;
@@ -21,7 +22,6 @@ public class parserTest : MonoBehaviour {
 	public float y;
 	public float boundsX = 41;
 	public float boundsY = -96;
-    public long[] greenNodes = new long[100];
     
 
 	public struct Node
@@ -43,14 +43,16 @@ public class parserTest : MonoBehaviour {
 	{
 		public long id;
 		public List<long> wnodes;
-        public List<Node> lNodes;
-		
-		public Way(long ID)
+        public List<Node> nodeList;
+        public string wayType;
+
+		public Way(long ID, string TYPE)
 		{
 			id = ID;
 			wnodes = new List<long>();
-            lNodes = new List<Node>();
-		}
+            nodeList = new List<Node>();
+            wayType = TYPE;
+        }
 	}
 
     public struct WayData
@@ -60,10 +62,10 @@ public class parserTest : MonoBehaviour {
         public List<long> wnodes;
         public List<Node> nodeList;
 
-        public WayData(long ID, string NAME)
+        public WayData(long ID)
         {
             id = ID;
-            name = NAME;
+            name = new StringBuilder().ToString();
             wnodes = new List<long>();
             nodeList = new List<Node>();
         }
@@ -75,59 +77,99 @@ public class parserTest : MonoBehaviour {
     void Start ()
     {
         //parses exported OpenStreetMaps XML file and creates global list "ways" and "nodes"
-        parseOSM_XML(assetsDir + map);
+        ways = parseOSM(assetsDir + map);
+
+        nodes = ways[0].nodeList;
+        //parseOSM_XML(assetsDir + map);
         //saves "ways" and "nodes" lists into custom XML file as a local cache
         saveWayList(ways, cacheDir + map + "-wayList.xml");
         //creates "wayObjects" based on way[x].id, does vector transform to create visual
-        //createWayObjects();
-        Debug.Log("COMPLEATE: ALL wayObjects CREATED!!");
+        createWayObjects();
+        //Debug.Log("COMPLEATE: ALL wayObjects CREATED!!");
         //setWayColorMaterial(greenMat, 0);
 
-        //createBuilding();
+        createBuilding();
         // save wayObject list to avoid reparsing and setting components to render lines
         //saveWayObjects(wayObjects);
 	}
 
-    public void parseOSM_XML(string input)
+    /* parseOSM(string)
+     * Uses an XML document from OpenStreetMaps and parses "way" and "node" data using XPath.
+     * Populates Way struct with ID, type of way (structure, street, sidewalk, etc...), latitude and longitude
+     * of each node based on ID, and number of nodes in the Way.
+     * @param string input: takes a string that identifies the directory and XML file to parse
+     * @return wd: Way struct type, 
+     * 
+     */
+    public List<Way> parseOSM(string input)
     {
+        List<Way> wd = new List<Way>();
+        List<Node> nd = new List<Node>();
         XmlDocument doc = new XmlDocument();
-        doc.Load(new XmlTextReader(input));
-        XmlNodeList elemList = doc.GetElementsByTagName("node");
-        foreach (XmlNode attr in elemList)
+        doc.Load(input);
+        XPathNavigator nav = doc.CreateNavigator();
+        XPathNodeIterator xpni_node = nav.Select("/osm/node");
+
+        //gather all the "nodes" with ID, LAT, LON
+        int ct = 0;
+        while (xpni_node.MoveNext())
         {
-            Debug.Log("PARSING -- " + "ID: " + long.Parse(attr.Attributes["id"].InnerText) + ", LAT: " + float.Parse(attr.Attributes["lat"].InnerText) + ", LON: " + float.Parse(attr.Attributes["lon"].InnerText));
-            nodes.Add(new Node(long.Parse(attr.Attributes["id"].InnerText), float.Parse(attr.Attributes["lat"].InnerText), float.Parse(attr.Attributes["lon"].InnerText)));
+            nd.Add(new Node(
+                long.Parse(xpni_node.Current.GetAttribute("id", xpni_node.Current.GetNamespace("id"))),
+                float.Parse(xpni_node.Current.GetAttribute("lat", xpni_node.Current.GetNamespace("lat"))),
+                float.Parse(xpni_node.Current.GetAttribute("lon", xpni_node.Current.GetNamespace("lon"))))
+             );
+            Debug.Log(ct + "_node --ID: " + nd[ct].id + " Lat: " + nd[ct].lat + " Lon: " + nd[ct].lon);
+            ct++;
         }
 
-        XmlNodeList wayList = doc.GetElementsByTagName("way");
-        int ct = 0;
-        foreach (XmlNode node in wayList)
+        //gather all the "way" data 
+        XPathNodeIterator xpni_way = nav.Select("/osm/way");
+        ct = 0;
+        while (xpni_way.MoveNext())
         {
-            XmlNodeList wayNodes = node.ChildNodes;
-            ways.Add(new Way(long.Parse(node.Attributes["id"].InnerText)));
-            foreach (XmlNode nd in wayNodes)
+            long wayID = long.Parse(xpni_way.Current.GetAttribute("id", xpni_way.Current.GetNamespace("id")));
+            Debug.Log("Way ID: " + wayID);
+            if (xpni_way.Current.HasChildren)
             {
-                if (nd.Attributes[0].Name == "ref")
+                XPathNodeIterator xpni_nd = xpni_way.Current.SelectChildren("nd", xpni_way.Current.GetNamespace("way"));
+                List<long> llnd = new List<long>();
+                while (xpni_nd.MoveNext())
                 {
-                    ways[ct].wnodes.Add(long.Parse(nd.Attributes["ref"].InnerText));
-                    Debug.Log(ways[ct].wnodes.Count);
+                    llnd.Add(long.Parse(xpni_nd.Current.GetAttribute("ref", xpni_nd.Current.GetNamespace("ref"))));
+                    //wd[ct].wnodes.Add(long.Parse(xpni_nd.Current.GetAttribute("ref", xpni_nd.Current.GetNamespace("ref"))));
+                    Debug.Log(llnd.Count);
                 }
+                XPathNodeIterator xpni_tag = xpni_way.Current.SelectChildren("tag", xpni_way.Current.GetNamespace("way"));
+                string wt = "";
+                while (xpni_tag.MoveNext())
+                {
+                    if (xpni_tag.Current.GetAttribute("k", xpni_tag.Current.GetNamespace("k")).Contains("building"))
+                    {
+                        wt = "Structure";
+                        // = "Building";
+                        Debug.Log(wt);
+                    }
+                    else if (xpni_tag.Current.GetAttribute("k", xpni_tag.Current.GetNamespace("k")).Contains("highway"))
+                    {
+                        wt = "Street";
+                        Debug.Log(wt);
+                    }
+                }
+                wd.Add(new Way(wayID, wt));
+                wd[ct].wnodes.AddRange(llnd);
             }
             ct++;
         }
-    }
 
-    public List<WayData> parseOSM(string input)
-    {
-        List<WayData> wd = new List<WayData>();
-
+        //store "nodes" into the first "way" object in "nodeList"
+        wd[0].nodeList.AddRange(nd);
 
         return wd; 
     }
 
     //Cannot store Transforms in an XML doc, but can store a list of ways.
-    public List<Way> saveWayList (List<Way> way, string output) {
-        List<Way> lWay = null;
+    public bool saveWayList (List<Way> way, string output) {
         XmlWriter xwriter = null;
         XmlWriterSettings xWsettings = new XmlWriterSettings();
         const string wayNS = "OSM";     //ip of server and dir (later)
@@ -153,9 +195,11 @@ public class parserTest : MonoBehaviour {
                             if (way[i].wnodes[j].Equals(nd.id))
                             {
                                 xwriter.WriteStartElement("wnode");
-                                xwriter.WriteAttributeString("xs", "node", wayNS, nd.id.ToString());
+                                xwriter.WriteAttributeString("xs", "nodeID", wayNS, nd.id.ToString());
+                                xwriter.WriteAttributeString("xs", "nodeType", wayNS, way[i].wayType);
                                 xwriter.WriteStartElement("Coords");
-                                xwriter.WriteAttributeString("xl", "lat_lon", wayNS, nd.lat.ToString() + "," + nodes[j].lon.ToString());
+                                xwriter.WriteAttributeString("xl", "lat", wayNS, nd.lat.ToString());
+                                xwriter.WriteAttributeString("xl", "lon", wayNS, nd.lon.ToString());
                                 xwriter.WriteEndElement();
                                 xwriter.WriteEndElement();
                             }
@@ -176,7 +220,7 @@ public class parserTest : MonoBehaviour {
             }
         }
         Debug.Log("Writing ways to: " + output + " file.");
-        return lWay;
+        return true;
     }
 
     public void createWayObjects()
@@ -198,9 +242,9 @@ public class parserTest : MonoBehaviour {
                         Debug.Log("MATCH!");
                         x = nod.lat;
                         y = nod.lon;
-
+                        wayObjects[i].GetComponent<CircleCollider2D>().;
                         // works and optimal, needs to only draw material between nodes.
-                        /*switch (ways[i].wnodes[j])
+                        switch (ways[i].wnodes[j])
                         {
                             case 1669126349:
                                 setWayColorMaterial(i, greenMat);
@@ -211,10 +255,16 @@ public class parserTest : MonoBehaviour {
                             case 1129105971:
                                 setWayColorMaterial(i, greenMat);
                                 break;
-                        }*/
+                        }
                     }
                 }
                 wayObjects[i].GetComponent<LineRenderer>().SetPosition(j, new Vector3((x - boundsX) * 100, 0, (y - boundsY) * 100));
+
+                /*foreach (Node nd in ways[0].nodeList)
+                {
+                    wayObjects[i].GetComponent<GUIText>().HitTest(new Vector3((ways[0].nodeList[j].lat - boundsX) * 100, 0, ((ways[0].nodeList[j].lon - boundsY) * 100)));
+                    j++;
+                }*/
             }
         }
     }
