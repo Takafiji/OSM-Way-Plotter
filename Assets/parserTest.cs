@@ -12,6 +12,7 @@ using System.Xml.XPath;
 
 public class parserTest : MonoBehaviour {
 
+    private const string wayNS = "OSM";     //ip of server and dir (later)
     private const string assetsDir = "Assets/";
     private const string cacheDir = assetsDir + "parsedMaps/";
     private const string map = "map-south_campus.osm";
@@ -54,22 +55,6 @@ public class parserTest : MonoBehaviour {
             wayType = TYPE;
         }
 	}
-
-    public struct WayData
-    {
-        public long id;
-        public string name;
-        public List<long> wnodes;
-        public List<Node> nodeList;
-
-        public WayData(long ID)
-        {
-            id = ID;
-            name = new StringBuilder().ToString();
-            wnodes = new List<long>();
-            nodeList = new List<Node>();
-        }
-    }
 
 	public List<Node> nodes = new List<Node>();
 	public List<Way> ways = new List<Way>();
@@ -147,7 +132,6 @@ public class parserTest : MonoBehaviour {
                     if (xpni_tag.Current.GetAttribute("k", xpni_tag.Current.GetNamespace("k")).Contains("building"))
                     {
                         wt = "Structure";
-                        // = "Building";
                         Debug.Log(wt);
                     }
                     else if (xpni_tag.Current.GetAttribute("k", xpni_tag.Current.GetNamespace("k")).Contains("highway"))
@@ -168,11 +152,10 @@ public class parserTest : MonoBehaviour {
         return wd; 
     }
 
-    //Cannot store Transforms in an XML doc, but can store a list of ways.
+    // store list of ways (Way struct) to XML document. Switch to JSON???!
     public bool saveWayList (List<Way> way, string output) {
         XmlWriter xwriter = null;
         XmlWriterSettings xWsettings = new XmlWriterSettings();
-        const string wayNS = "OSM";     //ip of server and dir (later)
         xWsettings.Encoding = Encoding.UTF8;
         xWsettings.Indent = true;
         xWsettings.IndentChars = "\t";
@@ -223,8 +206,25 @@ public class parserTest : MonoBehaviour {
         return true;
     }
 
+    /*public List<Way> loadWayList(string input)
+    {
+        List<Way> wd = new List<Way>();
+        List<Node> nd = new List<Node>();
+        //XmlReader xreader = XmlReader.Create(input);
+        XPathDocument doc = new XPathDocument(input);
+        XPathNavigator nav_wayID = doc.CreateNavigator();
+
+        //XPathNodeIterator xpni_
+
+        return wd;
+
+    }*/
+
     public void createWayObjects()
     {
+        Material waypointMat = Resources.Load("OSM_Node_Yellow.mat", typeof(Material)) as Material;
+        Texture2D waypoint = new Texture2D(128, 128);
+        //GetComponent<Renderer>().material.mainTexture = waypoint;
         for (int i = 0; i < ways.Count; i++)
         {
             wayObjects.Add(new GameObject("wayObject" + ways[i].id).transform);
@@ -232,6 +232,7 @@ public class parserTest : MonoBehaviour {
             wayObjects[i].GetComponent<LineRenderer>().startWidth = 0.005f;
             wayObjects[i].GetComponent<LineRenderer>().endWidth = 0.005f;
             wayObjects[i].GetComponent<LineRenderer>().numPositions = ways[i].wnodes.Count;
+            
             //loop through all nodes in each way
             for (int j = 0; j < ways[i].wnodes.Count; j++)
             {
@@ -242,7 +243,6 @@ public class parserTest : MonoBehaviour {
                         Debug.Log("MATCH!");
                         x = nod.lat;
                         y = nod.lon;
-                        wayObjects[i].GetComponent<CircleCollider2D>().;
                         // works and optimal, needs to only draw material between nodes.
                         switch (ways[i].wnodes[j])
                         {
