@@ -122,6 +122,7 @@ MonoBehaviour:
   y: 0
   boundsX: 41
   boundsY: -96
+  font: {fileID: 0}
 --- !u!4 &84424416
 Transform:
   m_ObjectHideFlags: 0
@@ -129,7 +130,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84424414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.42494, y: -3.025108, z: 0.7809143}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -211,7 +212,7 @@ GUIText:
   m_Text: Scott Residece Hall (SRH)
   m_Anchor: 4
   m_Alignment: 1
-  m_PixelOffset: {x: 0, y: 0}
+  m_PixelOffset: {x: -2, y: -2}
   m_LineSpacing: 1
   m_TabSize: 4
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -271,8 +272,8 @@ Camera:
   m_GameObject: {fileID: 1431404250}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0

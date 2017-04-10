@@ -17,7 +17,6 @@ public class parserTest : MonoBehaviour {
     private const string cacheDir = assetsDir + "parsedMaps/";
     private const string map = "map-south_campus.osm";
     private const string greenMat = "OSM_Green-Path";
-    List<Transform> wayObjects = new List<Transform>();
 	//public Node n;
 	public float x;
 	public float y;
@@ -56,8 +55,10 @@ public class parserTest : MonoBehaviour {
         }
 	}
 
-	public List<Node> nodes = new List<Node>();
+    public Font font;
+    public List<Node> nodes = new List<Node>();
 	public List<Way> ways = new List<Way>();
+    List<Transform> wayObjects = new List<Transform>();
 
     void Start ()
     {
@@ -232,7 +233,7 @@ public class parserTest : MonoBehaviour {
             wayObjects[i].GetComponent<LineRenderer>().startWidth = 0.005f;
             wayObjects[i].GetComponent<LineRenderer>().endWidth = 0.005f;
             wayObjects[i].GetComponent<LineRenderer>().numPositions = ways[i].wnodes.Count;
-            
+
             //loop through all nodes in each way
             for (int j = 0; j < ways[i].wnodes.Count; j++)
             {
@@ -240,9 +241,10 @@ public class parserTest : MonoBehaviour {
                 {
                     if (nod.id == ways[i].wnodes[j])
                     {
-                        Debug.Log("MATCH!");
+                        
                         x = nod.lat;
                         y = nod.lon;
+                        Debug.Log("WayID: " + ways[i].id + " wnode: " + ways[i].wnodes[j] + " X: " + x.ToString() + " Y: " + y.ToString());
                         // works and optimal, needs to only draw material between nodes.
                         switch (ways[i].wnodes[j])
                         {
@@ -259,7 +261,6 @@ public class parserTest : MonoBehaviour {
                     }
                 }
                 wayObjects[i].GetComponent<LineRenderer>().SetPosition(j, new Vector3((x - boundsX) * 100, 0, (y - boundsY) * 100));
-
                 /*foreach (Node nd in ways[0].nodeList)
                 {
                     wayObjects[i].GetComponent<GUIText>().HitTest(new Vector3((ways[0].nodeList[j].lat - boundsX) * 100, 0, ((ways[0].nodeList[j].lon - boundsY) * 100)));
@@ -312,6 +313,7 @@ public class parserTest : MonoBehaviour {
                         {
                             Debug.Log("Count --" + i + ": wayObject" + ways[i].id);
                             wayObjects[i].GetComponent<LineRenderer>().material = greyMat;
+                            //wayObjects[i].
                         }
                     }
                 }
